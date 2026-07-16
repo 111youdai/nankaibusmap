@@ -49,5 +49,4 @@ jobs:
           fi
 
           git commit -m "バス位置情報を自動更新"
-          git pull --rebase origin main
           git push origin main
