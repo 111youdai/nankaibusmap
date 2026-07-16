@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>南海バス リアルタイム位置</title>
+
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    >
+
+    <style>
+        html,
+        body {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+
+        .bus-popup {
+            min-width: 220px;
+            line-height: 1.6;
+        }
+
+        .bus-number {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .bus-route {
+            font-weight: bold;
+            margin-bottom: 6px;
+        }
+
+        .bus-info {
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+
+    <script
+        src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    ></script>
+
+    <script>
+        const map = L.map("map").setView(
+            [34.52, 135.47],
+            11
+        );
+
+        L.tileLayer(
+            "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+            {
+                maxZoom: 19,
+                attribution:
+                    "&copy; OpenStreetMap contributors"
+            }
+        ).addTo(map);
+
+        /*
+         * vehicle-list.txtを車番ごとのデータに変換する
+         *
+         * 改行・タブがなくても、
+         * 「6桁の車番-南海バス」を区切りとして解析する。
+         */
+        function parseVehicleList(text) {
+            const vehicles = {};
+
+            const entries = text.split(
+                /(?=\d{6}#?-南海バス)/
+            );
+
+            const officeNames = [
+                "河内長野",
+                "光明池",
+                "泉北",
+                "東山",
+                "空港",
+                "長野",
+                "堺"
+            ];
+
+            const noteNames = [
+                "泉北コミュニティ",
+                "サザンクロス",
+                "堺シャトル",
+                "学園輸送",
+                "高師浜",
+                "南港線",
+                "Sorae",
+                "移籍",
+                "除籍済み"
+            ];
+
+            for (const entry of entries) {
+                const trimmed = entry.trim();
+
+                if (!trimmed) {
+                    continue;
+                }
+
+                const vehicleNum =
+    trimmed.match(/\d{6}/)?.[0];
+
+                if (!vehicleNum) {
+                    continue;
+                }
+
+                const remainingText = trimmed
+                    .replace(
+                        /^\d{6}#?-南海バス\s*/,
+                        ""
+                    )
+                    .trim();
+
+                /*
+                 * 型式を抽出
+                 *
+                 * 例：
+                 * PJ-MP35JM
+                 * 2KG-LV290N4
+                 * QSG-HL2ANAP
+                 * O530G
+                 * B10A01
+                 * ZAC-LV828L1
+                 * ZBC-MUM1NAE
+                 * LX525Z1
+                 */
+                const modelMatch = remainingText.match(
+                    /\b(?:[A-Z0-9]{2,4}-[A-Z0-9]{4,}|O530G|B10A01|LX525Z1)\b/i
+                );
+
+                const model =
+                    modelMatch?.[0] || "";
+
+                const office =
+                    officeNames.find(name =>
+                        remainingText.includes(name)
+                    ) || "";
+
+                const note =
+                    noteNames.find(name =>
+                        remainingText.includes(name)
+                    ) || "";
+
+                /*
+                 * 登録番号は本文の先頭から、
+                 * 所属・型式・備考の手前までを候補にする。
+                 */
+                let registration = remainingText;
+
+                const cutWords = [
+                    office,
+                    model,
+                    note
+                ].filter(Boolean);
+
+                let cutIndex =
+                    registration.length;
+
+                for (const word of cutWords) {
+                    const index =
+                        registration.indexOf(word);
+
+                    if (
+                        index >= 0 &&
+                        index < cutIndex
+                    ) {
+                        cutIndex = index;
+                    }
+                }
+
+                registration = registration
+                    .slice(0, cutIndex)
+                    .trim();
+
+                /*
+                 * 「移籍」「除籍済み」「学園輸送」など、
+                 * 登録番号ではない語だけの場合は空欄にする。
+                 */
+                if (
+                    !/(堺|和泉)\d{3}/.test(registration)
+                ) {
+                    registration = "";
+                }
+
+                vehicles[vehicleNum] = {
+                    vehicleNum,
+                    registration,
+                    office,
+                    model,
+                    note
+                };
+            }
+
+            console.log(
+                "解析できた車両数:",
+                Object.keys(vehicles).length
+            );
+
+            return vehicles;
+        }
+
+        /*
+         * 型式・備考から使用する画像ファイルを決める
+         */
+        function getBusIconFile(vehicle) {
+            if (!vehicle) {
+                return null;
+            }
+
+            const model = String(
+                vehicle.model || ""
+            ).toUpperCase();
+
+            const note = String(
+                vehicle.note || ""
+            );
+
+            /*
+             * 特別塗装・専用車を先に判定
+             */
+            if (note.includes("サザンクロス")) {
+                return "bus-cerega-sc.png";
+            }
+
+            if (
+                note.includes("堺シャトル") ||
+                /HL2ANAP/i.test(model)
+            ) {
+                return "sakaishuttle.png";
+            }
+
+            /*
+             * 電気バス・輸入車・特殊車
+             */
+            if (/ZAC-LV828L1/i.test(model)) {
+                return "bus-ergaev.png";
+            }
+
+            if (/B10A01/i.test(model)) {
+                return "bus-b10a01.png";
+            }
+
+            if (/O530G/i.test(model)) {
+                return "bus-citarog.png";
+            }
+
+            if (/LX525Z1/i.test(model)) {
+                return "bus-lx525z1.png";
+            }
+
+            if (/MUM1NAE/i.test(model)) {
+                return "bus-mum1nae.png";
+            }
+
+            /*
+             * 高速・貸切車
+             */
+            if (/(MS06GP|MS96VP)/i.test(model)) {
+                return "bus-aero-ace.png";
+            }
+
+            if (/-RU/i.test(model)) {
+                return "bus-cerega.png";
+            }
+
+            /*
+             * 一般路線車
+             */
+            if (/-MP\d+/i.test(model)) {
+                return "bus-aerostar.png";
+            }
+
+            if (/-KV\d+/i.test(model)) {
+                return "bus-blueribbon2.png";
+            }
+
+            if (/-LV\d+/i.test(model)) {
+                return "bus-erga.png";
+            }
+
+            if (/-KR/i.test(model)) {
+                return "bus-rainbow2.png";
+            }
+
+            if (/-HX/i.test(model)) {
+                return "bus-poncho.png";
+            }
+
+            if (/-HU/i.test(model)) {
+                return "bus-blue-ribbon-city.png";
+            }
+
+            /*
+             * エルガミオは現在bus-erga.pngを共用
+             */
+            if (/-LR/i.test(model)) {
+                return "bus-erga.png";
+            }
+
+            return null;
+        }
+
+        /*
+         * ポップアップに表示する車種名
+         */
+        function getBusTypeName(vehicle) {
+            if (!vehicle) {
+                return "車種不明";
+            }
+
+            const model = String(
+                vehicle.model || ""
+            ).toUpperCase();
+
+            const note = String(
+                vehicle.note || ""
+            );
+
+            if (note.includes("サザンクロス")) {
+                return "日野 セレガ（サザンクロス）";
+            }
+
+            if (
+                note.includes("堺シャトル") ||
+                model.includes("HL2ANAP")
+            ) {
+                return "日野 ブルーリボン ハイブリッド（堺シャトル）";
+            }
+
+            if (model.includes("ZAC-LV828L1")) {
+                return "いすゞ エルガEV";
+            }
+
+            if (model.includes("B10A01")) {
+                return "BYD 電気バス";
+            }
+
+            if (model.includes("O530G")) {
+                return "メルセデス・ベンツ シターロG";
+            }
+
+            if (model.includes("LX525Z1")) {
+                return "いすゞ エルガ デュオ";
+            }
+
+            if (model.includes("MUM1NAE")) {
+                return "TOYOTA SORA";
+            }
+
+            if (
+                model.includes("MS06GP") ||
+                model.includes("MS96VP")
+            ) {
+                return "三菱ふそう エアロエース";
+            }
+
+            if (/-MP35/i.test(model)) {
+                return "三菱ふそう エアロスター";
+            }
+
+            if (/-MP37/i.test(model)) {
+                return "三菱ふそう エアロスター ノンステップ";
+            }
+
+            if (/-MP38/i.test(model)) {
+                return "三菱ふそう エアロスター";
+            }
+
+            if (/-KV234/i.test(model)) {
+                return "日野 ブルーリボンII";
+            }
+
+            if (/-KV290/i.test(model)) {
+                return "日野 ブルーリボン";
+            }
+
+            if (/-LV234/i.test(model)) {
+                return "いすゞ エルガ";
+            }
+
+            if (/-LV290/i.test(model)) {
+                return "いすゞ エルガ";
+            }
+
+            if (/-RU/i.test(model)) {
+                return "日野 セレガ";
+            }
+
+            if (/-KR234/i.test(model)) {
+                return "日野 レインボーII";
+            }
+
+            if (/-KR290/i.test(model)) {
+                return "日野 レインボー";
+            }
+
+            if (/-LR234/i.test(model)) {
+                return "いすゞ エルガミオ";
+            }
+
+            if (/-LR290/i.test(model)) {
+                return "いすゞ エルガミオ";
+            }
+
+            if (/-HX/i.test(model)) {
+                return "日野 ポンチョ";
+            }
+
+            if (/-HU/i.test(model)) {
+                return "日野 ブルーリボンシティ";
+            }
+
+            if (/-RJ/i.test(model)) {
+                return "日野 レインボーRJ";
+            }
+
+            if (/-AR/i.test(model)) {
+                return "日産ディーゼル スペースランナー";
+            }
+
+            return "車種不明";
+        }
+
+        const busIconCache = {};
+
+        function createBusIcon(vehicle) {
+            const iconFile =
+                getBusIconFile(vehicle);
+
+            if (!iconFile) {
+                return null;
+            }
+
+            if (!busIconCache[iconFile]) {
+                busIconCache[iconFile] = L.icon({
+                    iconUrl:
+                        `icons/${iconFile}`,
+                    iconSize: [48, 48],
+                    iconAnchor: [24, 24],
+                    popupAnchor: [0, -24]
+                });
+            }
+
+            return busIconCache[iconFile];
+        }
+
+        function escapeHtml(value) {
+            return String(value)
+                .replaceAll("&", "&amp;")
+                .replaceAll("<", "&lt;")
+                .replaceAll(">", "&gt;")
+                .replaceAll('"', "&quot;")
+                .replaceAll("'", "&#039;");
+        }
+
+        Promise.all([
+            fetch("bus-gps.json")
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(
+                            `bus-gps.json取得失敗: ${response.status}`
+                        );
+                    }
+
+                    return response.json();
+                }),
+
+            fetch("vehicle-list.txt")
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(
+                            `vehicle-list.txt取得失敗: ${response.status}`
+                        );
+                    }
+
+                    return response.text();
+                })
+        ])
+            .then(([buses, vehicleListText]) => {
+                const vehicleData =
+                    parseVehicleList(
+                        vehicleListText
+                        
+                    );
+                    window.vehicleData =
+    vehicleData;
+
+                console.log(
+                    `GPS：${buses.length}台`
+                );
+
+                console.log(
+                    `車両一覧：${
+                        Object.keys(vehicleData).length
+                    }台`
+                );
+                
+
+                const markerGroup =
+                    L.featureGroup();
+                    const missingVehicles = [];
+
+                for (const bus of buses) {
+                    const lat =
+                        Number(bus.lat);
+
+                    const lon =
+                        Number(bus.lon);
+
+                    if (
+                        !Number.isFinite(lat) ||
+                        !Number.isFinite(lon)
+                    ) {
+                        continue;
+                    }
+
+                    const vehicleNum =
+                        String(
+                            bus.vehicleNum || ""
+                        ).padStart(6, "0");
+
+                    const vehicle =
+                        vehicleData[vehicleNum];
+
+                    const busIcon =
+                        createBusIcon(vehicle);
+
+                    const markerOptions = {};
+
+                    if (busIcon) {
+                        markerOptions.icon =
+                            busIcon;
+                    } else {
+    const missingVehicle = {
+        vehicleNum,
+        route:
+            bus.route ||
+            "路線不明",
+        stop:
+            bus.stop ||
+            "現在地不明",
+        model:
+            vehicle?.model ||
+            "",
+        office:
+            vehicle?.office ||
+            "",
+        registration:
+            vehicle?.registration ||
+            "",
+        vehicleFound:
+            Boolean(vehicle)
+    };
+
+    missingVehicles.push(
+        missingVehicle
+    );
+
+    console.warn(
+        "アイコン未設定:",
+        missingVehicle
+    );
+}
+
+                    const marker = L.marker(
+                        [lat, lon],
+                        markerOptions
+                    );
+
+                    const model =
+                        vehicle?.model ||
+                        "型式不明";
+
+                    const busTypeName =
+                        getBusTypeName(vehicle);
+
+                    const office =
+                        vehicle?.office ||
+                        "所属不明";
+
+                    const registration =
+                        vehicle?.registration ||
+                        "登録番号不明";
+
+                    const note =
+                        vehicle?.note || "";
+
+                    const popupHtml = `
+                        <div class="bus-popup">
+                            <div class="bus-number">
+                                車番：
+                                ${escapeHtml(
+                                    vehicleNum
+                                )}
+                            </div>
+
+                            <div class="bus-route">
+                                ${escapeHtml(
+                                    bus.route ||
+                                    "路線不明"
+                                )}
+                            </div>
+
+                            <div class="bus-info">
+                                現在地：
+                                ${escapeHtml(
+                                    bus.stop ||
+                                    "不明"
+                                )}
+                                <br>
+
+                                車種：
+                                ${escapeHtml(
+                                    busTypeName
+                                )}
+                                <br>
+
+                                型式：
+                                ${escapeHtml(
+                                    model
+                                )}
+                                <br>
+
+                                所属：
+                                ${escapeHtml(
+                                    office
+                                )}
+                                <br>
+
+                                登録番号：
+                                ${escapeHtml(
+                                    registration
+                                )}
+
+                                ${
+                                    note
+                                        ? `
+                                            <br>
+                                            備考：
+                                            ${escapeHtml(
+                                                note
+                                            )}
+                                        `
+                                        : ""
+                                }
+                            </div>
+                        </div>
+                    `;
+
+                    marker.bindPopup(
+                        popupHtml
+                    );
+
+                    marker.addTo(
+                        markerGroup
+                    );
+                }
+                console.table(
+    missingVehicles
+);
+
+console.log(
+    "型式未判明・アイコン未設定車両:",
+    missingVehicles.length,
+    "台"
+);
+
+window.missingVehicles =
+    missingVehicles;
+
+                markerGroup.addTo(map);
+
+                if (
+                    markerGroup
+                        .getLayers()
+                        .length > 0
+                ) {
+                    map.fitBounds(
+                        markerGroup.getBounds(),
+                        {
+                            padding: [30, 30]
+                        }
+                    );
+                }
+            })
+            .catch(error => {
+                console.error(error);
+
+                alert(
+                    "バス情報を読み込めませんでした。\n" +
+                    error.message
+                );
+            });
+    </script>
+</body>
+</html>
