@@ -469,34 +469,39 @@
                 .replaceAll("'", "&#039;");
         }
 
-        Promise.all([
-          fetch(
-    `vehicle-list.txt?t=${Date.now()}`,
-    {
-        cache: "no-store"
-    }
-)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error(
-                            `bus-gps.json取得失敗: ${response.status}`
-                        );
-                    }
+      Promise.all([
+    fetch(
+        `bus-gps.json?t=${Date.now()}`,
+        {
+            cache: "no-store"
+        }
+    )
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(
+                    `bus-gps.json取得失敗: ${response.status}`
+                );
+            }
 
-                    return response.json();
-                }),
+            return response.json();
+        }),
 
-            fetch("vehicle-list.txt")
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error(
-                            `vehicle-list.txt取得失敗: ${response.status}`
-                        );
-                    }
+    fetch(
+        `vehicle-list.txt?t=${Date.now()}`,
+        {
+            cache: "no-store"
+        }
+    )
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(
+                    `vehicle-list.txt取得失敗: ${response.status}`
+                );
+            }
 
-                    return response.text();
-                })
-        ])
+            return response.text();
+        })
+])
             .then(([buses, vehicleListText]) => {
                 const vehicleData =
                     parseVehicleList(
