@@ -470,7 +470,12 @@
         }
 
         Promise.all([
-            fetch("bus-gps.json")
+          fetch(
+    `vehicle-list.txt?t=${Date.now()}`,
+    {
+        cache: "no-store"
+    }
+)
                 .then(response => {
                     if (!response.ok) {
                         throw new Error(
@@ -707,6 +712,12 @@ window.missingVehicles =
                     error.message
                 );
             });
+            setTimeout(
+    () => {
+        location.reload();
+    },
+    5 * 60 * 1000
+);
     </script>
 </body>
 </html>
