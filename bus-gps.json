@@ -1,15 +1,28 @@
 [
   {
+    "vehicleNum": "091791",
+    "vehicleCd": "206",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "lat": 34.436194,
+    "lon": 135.242778,
+    "route": "空港駅→給油地区",
+    "stop": "空港駅",
+    "passTime": "02:46",
+    "vehicleType": "南海バス(車椅子・ノンステップ)",
+    "updateTime": "2026/07/18 02:46"
+  },
+  {
     "vehicleNum": "091601",
     "vehicleCd": "202",
     "vehicleCorpCd": "1",
     "running": true,
-    "lat": 34.4275,
-    "lon": 135.227583,
+    "lat": 34.433778,
+    "lon": 135.222889,
     "route": "給油地区→ＦｅｄＥｘ→空港駅",
-    "stop": "浄化センター前",
-    "passTime": "02:42",
+    "stop": "国際貨物FedEx前",
+    "passTime": "02:45",
     "vehicleType": "南海バス(車椅子・ノンステップ)",
-    "updateTime": "2026/07/18 02:44"
+    "updateTime": "2026/07/18 02:46"
   }
 ]
