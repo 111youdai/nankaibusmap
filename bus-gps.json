@@ -4,12 +4,25 @@
     "vehicleCd": "202",
     "vehicleCorpCd": "1",
     "running": true,
-    "lat": 34.4255,
-    "lon": 135.231083,
+    "lat": 34.428694,
+    "lon": 135.229389,
     "route": "給油地区→ＦｅｄＥｘ→空港駅",
-    "stop": "JAL輸出ビル前",
-    "passTime": "04:50",
+    "stop": "機内食前",
+    "passTime": "04:52",
     "vehicleType": "南海バス(車椅子・ノンステップ)",
-    "updateTime": "2026/07/18 04:50"
+    "updateTime": "2026/07/18 04:52"
+  },
+  {
+    "vehicleNum": "092345",
+    "vehicleCd": "160",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "lat": 34.431278,
+    "lon": 135.2335,
+    "route": "エアロプラザ→第２ターミナル(国内線・国際線)→エアロプラザ",
+    "stop": "エアロプラザ",
+    "passTime": "04:50",
+    "vehicleType": "南海バス",
+    "updateTime": "2026/07/18 04:52"
   }
 ]
