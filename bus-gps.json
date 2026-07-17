@@ -4,51 +4,64 @@
     "vehicleCd": "47",
     "vehicleCorpCd": "1",
     "running": true,
-    "lat": 34.527194,
-    "lon": 135.488472,
+    "lat": 34.530278,
+    "lon": 135.487889,
     "route": "東山車庫前→小阪→堺東駅前",
-    "stop": "八田荘団地",
-    "passTime": "05:34",
+    "stop": "堀上",
+    "passTime": "05:36",
     "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/07/18 05:34"
+    "updateTime": "2026/07/18 05:37"
   },
   {
     "vehicleNum": "091791",
     "vehicleCd": "206",
     "vehicleCorpCd": "1",
     "running": true,
-    "lat": 34.432278,
-    "lon": 135.232194,
+    "lat": 34.438778,
+    "lon": 135.244583,
     "route": "エアロプラザ→第２ターミナル(国内線・国際線)→エアロプラザ",
     "stop": "第2ターミナル国際線",
     "passTime": "05:32",
     "vehicleType": "南海バス(車椅子・ノンステップ)",
-    "updateTime": "2026/07/18 05:34"
+    "updateTime": "2026/07/18 05:37"
   },
   {
-    "vehicleNum": "092398",
-    "vehicleCd": "41",
+    "vehicleNum": "092135",
+    "vehicleCd": "525",
     "vehicleCorpCd": "1",
     "running": true,
-    "lat": 34.435694,
-    "lon": 135.241889,
+    "lat": 34.431694,
+    "lon": 135.234194,
     "route": "エアロプラザ→第２ターミナル(国内線・国際線)→エアロプラザ",
-    "stop": "第2ターミナル国際線",
-    "passTime": "05:27",
-    "vehicleType": "南海バス(車椅子・ノンステップ)",
-    "updateTime": "2026/07/18 05:34"
+    "stop": "エアロプラザ",
+    "passTime": "05:35",
+    "vehicleType": "南海バス",
+    "updateTime": "2026/07/18 05:37"
+  },
+  {
+    "vehicleNum": "092345",
+    "vehicleCd": "160",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "lat": 34.421,
+    "lon": 135.222583,
+    "route": "給油地区→空港駅",
+    "stop": "給油地区",
+    "passTime": "05:37",
+    "vehicleType": "南海バス",
+    "updateTime": "2026/07/18 05:37"
   },
   {
     "vehicleNum": "092953",
     "vehicleCd": "122",
     "vehicleCorpCd": "1",
     "running": true,
-    "lat": 34.428583,
-    "lon": 135.229278,
+    "lat": 34.435278,
+    "lon": 135.239278,
     "route": "給油地区→ＦｅｄＥｘ→空港駅",
     "stop": "機内食前",
     "passTime": "05:34",
     "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/07/18 05:35"
+    "updateTime": "2026/07/18 05:37"
   }
 ]
