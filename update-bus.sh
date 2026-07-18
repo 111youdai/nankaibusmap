@@ -12,10 +12,10 @@ git pull --rebase origin main
 /usr/bin/node scraper.js
 
 git add \
-  buses.json \
-  bus-gps.json \
-  bus-no-gps.json \
-  bus-errors.json
+  data/nankai/buses.json \
+  data/nankai/gps.json \
+  data/nankai/bus-no-gps.json \
+  data/nankai/bus-errors.json
 
 if git diff --cached --quiet; then
   echo "更新なし"
