@@ -81,10 +81,137 @@
     background:#dc3545;
     color:white;
 }
+#credits-button {
+    position: fixed;
+    right: 10px;
+    bottom: 28px;
+    z-index: 1100;
+
+    border: 1px solid #777;
+    border-radius: 6px;
+    padding: 5px 9px;
+
+    background: rgba(255, 255, 255, 0.92);
+    color: #222;
+
+    font-size: 12px;
+    cursor: pointer;
+
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+#credits-panel {
+    display: none;
+
+    position: fixed;
+    right: 10px;
+    bottom: 65px;
+    z-index: 1200;
+
+    width: min(340px, calc(100vw - 24px));
+    max-height: 60vh;
+    overflow-y: auto;
+
+    box-sizing: border-box;
+    padding: 18px 16px 12px;
+
+    background: rgba(255, 255, 255, 0.97);
+    color: #222;
+
+    border-radius: 10px;
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.35);
+
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+#credits-panel.open {
+    display: block;
+}
+
+#credits-panel p {
+    margin: 8px 0;
+}
+
+#credits-panel a {
+    color: #0066cc;
+}
+
+#credits-close {
+    position: absolute;
+    top: 4px;
+    right: 8px;
+
+    border: none;
+    background: transparent;
+
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    #credits-button {
+        right: 8px;
+        bottom: 32px;
+        padding: 4px 7px;
+        font-size: 11px;
+    }
+
+    #credits-panel {
+        right: 8px;
+        bottom: 68px;
+        width: calc(100vw - 16px);
+        max-height: 45vh;
+        font-size: 12px;
+    }
+}
     </style>
 </head>
-
 <body>
+<button id="credits-button" type="button">
+    ⓘ データ提供
+</button>
+
+<div id="credits-panel">
+    <button id="credits-close" type="button">×</button>
+
+    <strong>データ提供・出典</strong>
+
+    <p>
+        和歌山バス・和歌山バス那賀の位置情報には、
+        各社公開のGTFS／GTFS Realtimeデータを利用しています。
+    </p>
+
+    <p>
+        ライセンス：
+        <a
+            href="https://creativecommons.org/licenses/by/4.0/deed.ja"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            CC BY 4.0
+        </a>
+    </p>
+
+    <p>
+        <a
+            href="https://www.wakayamabus.co.jp/"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            和歌山バス公式サイト
+        </a>
+        <br>
+        <a
+            href="https://wakayamabusnaga.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            和歌山バス那賀公式サイト
+        </a>
+    </p>
+</div>
+
     <div id="map"></div>
     <div id="update-time">更新日時: 読み込み中...</div>
 
@@ -782,6 +909,24 @@ window.missingVehicles =
     },
     5 * 60 * 1000
 );
+
+// データ提供パネルの開閉
+const creditsButton =
+    document.getElementById("credits-button");
+
+const creditsPanel =
+    document.getElementById("credits-panel");
+
+const creditsClose =
+    document.getElementById("credits-close");
+
+creditsButton.addEventListener("click", () => {
+    creditsPanel.classList.toggle("open");
+});
+
+creditsClose.addEventListener("click", () => {
+    creditsPanel.classList.remove("open");
+});
     </script>
 </body>
 </html>
