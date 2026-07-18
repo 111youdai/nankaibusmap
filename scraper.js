@@ -393,7 +393,7 @@ async function collectAllBuses() {
         );
 
         fs.writeFileSync(
-            "buses.json",
+            "data/nankai/gps.json",
             JSON.stringify(
                 [...busMap.values()],
                 null,
@@ -635,7 +635,7 @@ function saveGpsResults(
     errorBuses
 ) {
     fs.writeFileSync(
-        "bus-gps.json",
+        "data/nankai/gps.json",
         JSON.stringify(
             results,
             null,
@@ -645,7 +645,7 @@ function saveGpsResults(
     );
 
     fs.writeFileSync(
-        "bus-no-gps.json",
+        "data/nankai/bus-no-gps.json",
         JSON.stringify(
             noMapBuses,
             null,
@@ -655,7 +655,7 @@ function saveGpsResults(
     );
 
     fs.writeFileSync(
-        "bus-errors.json",
+        "data/nankai/bus-errors.json",
         JSON.stringify(
             errorBuses,
             null,
@@ -699,7 +699,7 @@ async function main() {
         );
 
         fs.writeFileSync(
-            "buses.json",
+            "data/nankai/buses.json",
             JSON.stringify(
                 buses,
                 null,
@@ -839,19 +839,19 @@ async function main() {
         );
 
         console.log(
-            "buses.json"
+            "data/nankai/buses.json"
         );
 
         console.log(
-            "bus-gps.json"
+            "data/nankai/gps.json"
         );
 
         console.log(
-            "bus-no-gps.json"
+            "data/nankai/bus-no-gps.json"
         );
 
         console.log(
-            "bus-errors.json"
+            "data/nankai/bus-errors.json"
         );
 
         console.log(
