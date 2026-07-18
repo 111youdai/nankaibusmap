@@ -235,150 +235,6 @@
         ).addTo(map);
 
         /*
-         * vehicle-list.txtを車番ごとのデータに変換する
-         *
-         * 改行・タブがなくても、
-         * 「6桁の車番-南海バス」を区切りとして解析する。
-         */
-        function parseVehicleList(text) {
-            const vehicles = {};
-
-            const entries = text.split(
-                /(?=\d{6}#?-南海バス)/
-            );
-
-            const officeNames = [
-                "河内長野",
-                "光明池",
-                "泉北",
-                "東山",
-                "空港",
-                "長野",
-                "堺"
-            ];
-
-            const noteNames = [
-                "泉北コミュニティ",
-                "サザンクロス",
-                "堺シャトル",
-                "学園輸送",
-                "高師浜",
-                "南港線",
-                "Sorae",
-                "移籍",
-                "除籍済み"
-            ];
-
-            for (const entry of entries) {
-                const trimmed = entry.trim();
-
-                if (!trimmed) {
-                    continue;
-                }
-
-                const vehicleNum =
-    trimmed.match(/\d{6}/)?.[0];
-
-                if (!vehicleNum) {
-                    continue;
-                }
-
-                const remainingText = trimmed
-                    .replace(
-                        /^\d{6}#?-南海バス\s*/,
-                        ""
-                    )
-                    .trim();
-
-                /*
-                 * 型式を抽出
-                 *
-                 * 例：
-                 * PJ-MP35JM
-                 * 2KG-LV290N4
-                 * QSG-HL2ANAP
-                 * O530G
-                 * B10A01
-                 * ZAC-LV828L1
-                 * ZBC-MUM1NAE
-                 * LX525Z1
-                 */
-                const modelMatch = remainingText.match(
-                    /\b(?:[A-Z0-9]{2,4}-[A-Z0-9]{4,}|O530G|B10A01|LX525Z1)\b/i
-                );
-
-                const model =
-                    modelMatch?.[0] || "";
-
-                const office =
-                    officeNames.find(name =>
-                        remainingText.includes(name)
-                    ) || "";
-
-                const note =
-                    noteNames.find(name =>
-                        remainingText.includes(name)
-                    ) || "";
-
-                /*
-                 * 登録番号は本文の先頭から、
-                 * 所属・型式・備考の手前までを候補にする。
-                 */
-                let registration = remainingText;
-
-                const cutWords = [
-                    office,
-                    model,
-                    note
-                ].filter(Boolean);
-
-                let cutIndex =
-                    registration.length;
-
-                for (const word of cutWords) {
-                    const index =
-                        registration.indexOf(word);
-
-                    if (
-                        index >= 0 &&
-                        index < cutIndex
-                    ) {
-                        cutIndex = index;
-                    }
-                }
-
-                registration = registration
-                    .slice(0, cutIndex)
-                    .trim();
-
-                /*
-                 * 「移籍」「除籍済み」「学園輸送」など、
-                 * 登録番号ではない語だけの場合は空欄にする。
-                 */
-                if (
-                    !/(堺|和泉)\d{3}/.test(registration)
-                ) {
-                    registration = "";
-                }
-
-                vehicles[vehicleNum] = {
-                    vehicleNum,
-                    registration,
-                    office,
-                    model,
-                    note
-                };
-            }
-
-            console.log(
-                "解析できた車両数:",
-                Object.keys(vehicles).length
-            );
-
-            return vehicles;
-        }
-
-        /*
          * 型式・備考から使用する画像ファイルを決める
          */
         function getBusIconFile(vehicle) {
@@ -633,46 +489,29 @@
         }
 
       Promise.all([
-    fetch(
-        `bus-gps.json?t=${Date.now()}`,
-        {
-            cache: "no-store"
-        }
-    )
+    fetch(`data/nankai/gps.json?t=${Date.now()}`)
         .then(response => {
             if (!response.ok) {
                 throw new Error(
-                    `bus-gps.json取得失敗: ${response.status}`
+                    `gps.json取得失敗: ${response.status}`
                 );
             }
-
             return response.json();
         }),
 
-    fetch(
-        `vehicle-list.txt?t=${Date.now()}`,
-        {
-            cache: "no-store"
-        }
-    )
+    fetch(`data/nankai/vehicles.json?t=${Date.now()}`)
         .then(response => {
             if (!response.ok) {
                 throw new Error(
-                    `vehicle-list.txt取得失敗: ${response.status}`
+                    `vehicles.json取得失敗: ${response.status}`
                 );
             }
-
-            return response.text();
+            return response.json();
         })
 ])
-            .then(([buses, vehicleListText]) => {
-                const vehicleData =
-                    parseVehicleList(
-                        vehicleListText
-                        
-                    );
-                    window.vehicleData = vehicleData;
+            .then(([buses, vehicleData]) => {
 
+    window.vehicleData = vehicleData;
 const updateElem = document.getElementById("update-time");
 
 if (buses.length > 0) {
