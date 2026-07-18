@@ -46,11 +46,47 @@
         .bus-info {
             font-size: 13px;
         }
+        #update-time {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    padding: 8px 12px;
+    border-radius: 8px;
+
+    font-size: 13px;
+    font-weight: bold;
+
+    z-index: 9999;
+
+    transition: .3s;
+}
+
+.status-green{
+    background:#28a745;
+    color:white;
+}
+
+.status-yellow{
+    background:#ffc107;
+    color:black;
+}
+
+.status-orange{
+    background:#fd7e14;
+    color:white;
+}
+
+.status-red{
+    background:#dc3545;
+    color:white;
+}
     </style>
 </head>
 
 <body>
     <div id="map"></div>
+    <div id="update-time">更新日時: 読み込み中...</div>
 
     <script
         src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
@@ -508,8 +544,31 @@
                         vehicleListText
                         
                     );
-                    window.vehicleData =
-    vehicleData;
+                    window.vehicleData = vehicleData;
+
+const updateElem = document.getElementById("update-time");
+
+if (buses.length > 0) {
+    const updateTime = buses[0].updateTime;
+
+    const updateDate = new Date(updateTime.replace(/\//g, "-"));
+    const now = new Date();
+
+    const diffMin = (now - updateDate) / 1000 / 60;
+
+    updateElem.textContent =
+        `最終更新：${updateTime}（${Math.floor(diffMin)}分前）`;
+
+    if (diffMin < 3) {
+        updateElem.className = "status-green";
+    } else if (diffMin < 5) {
+        updateElem.className = "status-yellow";
+    } else if (diffMin < 10) {
+        updateElem.className = "status-orange";
+    } else {
+        updateElem.className = "status-red";
+    }
+}
 
                 console.log(
                     `GPS：${buses.length}台`
@@ -526,7 +585,7 @@
                     L.featureGroup();
                     const missingVehicles = [];
 
-                for (const bus of buses) {
+                for (const bus of busList) {
                     const lat =
                         Number(bus.lat);
 
