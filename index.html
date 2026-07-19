@@ -332,6 +332,49 @@
                 return "bus-erga.png";
             }
 
+            /*
+             * 和歌山バス車両一覧の日本語車種名にも対応
+             * より具体的な名前を先に判定する
+             */
+            if (model.includes("エルガミオ")) {
+                return "bus-erga.png";
+            }
+
+            if (model.includes("エルガ")) {
+                return "bus-erga.png";
+            }
+
+            if (model.includes("ブルーリボンシティ")) {
+                return "bus-blue-ribbon-city.png";
+            }
+
+            if (model.includes("ブルーリボン")) {
+                return "bus-blueribbon2.png";
+            }
+
+            if (model.includes("レインボー")) {
+                return "bus-rainbow2.png";
+            }
+
+            if (model.includes("ポンチョ")) {
+                return "bus-poncho.png";
+            }
+
+            if (model.includes("エアロスター")) {
+                return "bus-aerostar.png";
+            }
+
+            if (
+                model.includes("エアロエース") ||
+                model.includes("エアロバス")
+            ) {
+                return "bus-aero-ace.png";
+            }
+
+            if (model.includes("セレガ")) {
+                return "bus-cerega.png";
+            }
+
             return null;
         }
 
@@ -501,19 +544,19 @@
          * companyConfigsへ設定を追加するだけで読み込める。
          */
         const companyConfigs = [
-    {
-        id: "nankai",
-        name: "南海バス",
-        dataPath: "data/nankai",
-        iconBasePath: "icons"
-    },
-    {
-        id: "wakayama",
-        name: "和歌山バス",
-        dataPath: "data/wakayama",
-        iconBasePath: "icons"
-    }
-];
+            {
+                id: "nankai",
+                name: "南海バス",
+                dataPath: "data/nankai",
+                iconBasePath: "icons"
+            },
+            {
+                id: "wakayama",
+                name: "和歌山バス",
+                dataPath: "data/wakayama",
+                iconBasePath: "icons"
+            }
+        ];
 
         const allMarkerGroup = L.featureGroup();
         const allMissingVehicles = [];
@@ -556,42 +599,32 @@
             const updateElem =
                 document.getElementById("update-time");
 
-            const latestItems = results
-                .map(result => ({
-                    companyName:
-                        result.companyConfig.name,
-                    latest:
-                        getLatestUpdate(result.buses)
-                }))
-                .filter(item => item.latest);
+            /*
+             * 更新表示はメインの南海バスを基準にする
+             */
+            const nankaiResult = results.find(
+                result =>
+                    result.companyConfig.id === "nankai"
+            );
 
-            if (latestItems.length === 0) {
+            const latest = nankaiResult
+                ? getLatestUpdate(nankaiResult.buses)
+                : null;
+
+            if (!latest) {
                 updateElem.textContent =
                     "最終更新：取得できませんでした";
                 updateElem.className = "status-red";
                 return;
             }
 
-            latestItems.sort(
-                (a, b) =>
-                    b.latest.date.getTime() -
-                    a.latest.date.getTime()
-            );
-
-            const newest = latestItems[0];
             const diffMin =
-                (new Date() - newest.latest.date) /
+                (new Date() - latest.date) /
                 1000 /
                 60;
 
-            const companyText =
-                companyConfigs.length > 1
-                    ? `${newest.companyName}・`
-                    : "";
-
             updateElem.textContent =
-                `最終更新：${companyText}` +
-                `${newest.latest.value}` +
+                `最終更新：${latest.value}` +
                 `（${Math.max(
                     0,
                     Math.floor(diffMin)
@@ -639,16 +672,16 @@
                 }
 
                 const rawVehicleNum = String(
-    bus.vehicleNum || ""
-).trim();
+                    bus.vehicleNum || ""
+                ).trim();
 
-const vehicleNum =
-    companyConfig.id === "nankai"
-        ? rawVehicleNum.padStart(6, "0")
-        : rawVehicleNum;
+                const vehicleNum =
+                    companyConfig.id === "nankai"
+                        ? rawVehicleNum.padStart(6, "0")
+                        : rawVehicleNum;
 
-const vehicle =
-    vehicleData[vehicleNum];
+                const vehicle =
+                    vehicleData[vehicleNum];
 
                 const busIcon =
                     createBusIcon(
@@ -698,19 +731,19 @@ const vehicle =
                 );
 
                 const model =
-    vehicle?.type ||
-    vehicle?.model ||
-    "型式不明";
+                    vehicle?.type ||
+                    vehicle?.model ||
+                    "型式不明";
 
-const busTypeName =
-    companyConfig.id === "wakayama"
-        ? (vehicle?.model || "車種不明")
-        : getBusTypeName(vehicle);
+                const busTypeName =
+                    companyConfig.id === "wakayama"
+                        ? (vehicle?.model || "車種不明")
+                        : getBusTypeName(vehicle);
 
-const office =
-    vehicle?.office ||
-    vehicle?.company ||
-    "所属不明";
+                const office =
+                    vehicle?.office ||
+                    vehicle?.company ||
+                    "所属不明";
 
                 const registration =
                     vehicle?.registration ||
