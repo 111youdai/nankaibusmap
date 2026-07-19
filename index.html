@@ -235,13 +235,31 @@
         ).addTo(map);
 
         /*
-         * 型式・備考から使用する画像ファイルを決める
+         * 事業者ごとに使用する画像ファイルを決める
          */
-        function getBusIconFile(vehicle) {
+        function getBusIconFile(
+            vehicle,
+            companyConfig,
+            vehicleNum
+        ) {
             if (!vehicle) {
                 return null;
             }
 
+            if (companyConfig.id === "wakayama") {
+                return getWakayamaBusIconFile(
+                    vehicle,
+                    vehicleNum
+                );
+            }
+
+            return getNankaiBusIconFile(vehicle);
+        }
+
+        /*
+         * 南海バス用アイコン判定
+         */
+        function getNankaiBusIconFile(vehicle) {
             const model = String(
                 vehicle.model || ""
             ).toUpperCase();
@@ -333,8 +351,7 @@
             }
 
             /*
-             * 和歌山バス車両一覧の日本語車種名にも対応
-             * より具体的な名前を先に判定する
+             * 日本語車種名にも対応
              */
             if (model.includes("エルガミオ")) {
                 return "bus-erga.png";
@@ -373,6 +390,180 @@
 
             if (model.includes("セレガ")) {
                 return "bus-cerega.png";
+            }
+
+            return null;
+        }
+
+        /*
+         * 和歌山バス・和歌山バス那賀用アイコン判定
+         */
+        function getWakayamaBusIconFile(
+            vehicle,
+            vehicleNum
+        ) {
+            const numberText = String(
+                vehicleNum ||
+                vehicle.vehicleNum ||
+                vehicle.vehicleNumber ||
+                vehicle.number ||
+                ""
+            ).trim();
+
+            const number = Number.parseInt(
+                numberText,
+                10
+            );
+
+            const model = String(
+                vehicle.model || ""
+            );
+
+            const type = String(
+                vehicle.type || ""
+            ).toUpperCase();
+
+            const note = String(
+                vehicle.note || ""
+            );
+
+            const combined = `${model} ${type} ${note}`;
+
+            /* 特定車番・復刻塗装を最優先 */
+            if (number === 1960) {
+                return "erga-1960.png";
+            }
+
+            if (number === 1976) {
+                return "erga-1976.png";
+            }
+
+            if (number === 355) {
+                return "blueribbon-355.png";
+            }
+
+            if (number >= 492 && number <= 534) {
+                return "blueribbon-492-534.png";
+            }
+
+            if (number >= 797 && number <= 799) {
+                return "erga-797-799.png";
+            }
+
+            if (number === 613) {
+                return "aeroace-613.png";
+            }
+
+            if (number === 723) {
+                return "liesse-723.png";
+            }
+
+            if (number === 820) {
+                return "blueribbon-city-820.png";
+            }
+
+            if (number === 823) {
+                return "serega-823.png";
+            }
+
+            if (number === 967) {
+                return "serega-967.png";
+            }
+
+            if (number === 972) {
+                return "aeroace-972.png";
+            }
+
+            if (number === 2210) {
+                return "hiace-2210.png";
+            }
+
+            /* エルガ・エルガミオ */
+            if (/2KG-LV290/i.test(type)) {
+                return "erga-2KG.png";
+            }
+
+            if (/PJ-LV234/i.test(type)) {
+                return "erga-797-799.png";
+            }
+
+            if (/エルガミオ/i.test(combined) || /-LR/i.test(type)) {
+                return "erga-mio.png";
+            }
+
+            if (/エルガ/i.test(combined) || /-LV/i.test(type)) {
+                return "erga-2KG.png";
+            }
+
+            /* ブルーリボン系 */
+            if (/ブルーリボンシティ/i.test(combined) || /-HU/i.test(type)) {
+                return "blueribbon-city-hanshin.png";
+            }
+
+            if (/ブルーリボン/i.test(combined) || /-KV/i.test(type)) {
+                return "blueribbon-355.png";
+            }
+
+            /* 西工＋いすゞ */
+            if (/西工|西日本車体/i.test(combined)) {
+                if (/^KL-/i.test(type)) {
+                    return "nishiko-isuzu-KL.png";
+                }
+
+                if (/^PJ-/i.test(type)) {
+                    return "nishiko-isuzu-PJ.png";
+                }
+            }
+
+            /* エアロミディSを通常エアロミディより先に判定 */
+            if (/エアロミディ\s*S|エアロミディS/i.test(combined)) {
+                return "aeromidy-S.png";
+            }
+
+            if (/エアロミディ/i.test(combined)) {
+                return "aeromidy.png";
+            }
+
+            if (/エアロスター/i.test(combined) || /-MP/i.test(type)) {
+                return "aerostar.png";
+            }
+
+            /* レインボー系 */
+            if (/^BDG-/i.test(type)) {
+                return "rainbow-BDG.png";
+            }
+
+            if (/^KK-/i.test(type)) {
+                return "rainbow-KK.png";
+            }
+
+            if (/^PB-/i.test(type)) {
+                return "rainbow-PB.png";
+            }
+
+            if (/^PK-/i.test(type)) {
+                return "rainbow-PK.png";
+            }
+
+            if (/レインボー/i.test(combined) || /-KR|-RJ/i.test(type)) {
+                return "rainbow-BDG.png";
+            }
+
+            /* 高速・貸切車 */
+            if (/エアロエース|エアロバス/i.test(combined) || /MS\d+/i.test(type)) {
+                return "aeroace-972.png";
+            }
+
+            if (/セレガ/i.test(combined) || /-RU/i.test(type)) {
+                return "serega-PKG.png";
+            }
+
+            if (/リエッセ/i.test(combined)) {
+                return "liesse-723.png";
+            }
+
+            if (/ハイエース/i.test(combined)) {
+                return "hiace-2210.png";
             }
 
             return null;
@@ -501,9 +692,16 @@
 
         const busIconCache = {};
 
-        function createBusIcon(vehicle, companyConfig) {
-            const iconFile =
-                getBusIconFile(vehicle);
+        function createBusIcon(
+            vehicle,
+            companyConfig,
+            vehicleNum
+        ) {
+            const iconFile = getBusIconFile(
+                vehicle,
+                companyConfig,
+                vehicleNum
+            );
 
             if (!iconFile) {
                 return null;
@@ -548,13 +746,13 @@
                 id: "nankai",
                 name: "南海バス",
                 dataPath: "data/nankai",
-                iconBasePath: "icons"
+                iconBasePath: "icons/nankai"
             },
             {
                 id: "wakayama",
                 name: "和歌山バス",
                 dataPath: "data/wakayama",
-                iconBasePath: "icons"
+                iconBasePath: "icons/wakayama"
             }
         ];
 
@@ -686,7 +884,8 @@
                 const busIcon =
                     createBusIcon(
                         vehicle,
-                        companyConfig
+                        companyConfig,
+                        vehicleNum
                     );
 
                 const markerOptions = {};
