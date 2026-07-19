@@ -4,13 +4,26 @@
     "vehicleCd": "47",
     "vehicleCorpCd": "1",
     "running": true,
-    "lat": 34.541083,
-    "lon": 135.486278,
+    "lat": 34.548,
+    "lon": 135.484083,
     "route": "東山車庫前→小阪→堺東駅前",
-    "stop": "北深井",
-    "passTime": "05:39",
+    "stop": "向ヶ丘",
+    "passTime": "05:43",
     "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/07/20 05:40"
+    "updateTime": "2026/07/20 05:43"
+  },
+  {
+    "vehicleNum": "091600",
+    "vehicleCd": "201",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "lat": 34.434083,
+    "lon": 135.237778,
+    "route": "空港駅→給油地区",
+    "stop": "空港駅",
+    "passTime": "05:41",
+    "vehicleType": "南海バス(車椅子・ノンステップ)",
+    "updateTime": "2026/07/20 05:43"
   },
   {
     "vehicleNum": "092135",
@@ -18,24 +31,50 @@
     "vehicleCorpCd": "1",
     "running": true,
     "lat": 34.437583,
-    "lon": 135.231278,
+    "lon": 135.235194,
     "route": "エアロプラザ→第２ターミナル(国内線・国際線)→エアロプラザ",
-    "stop": "エアロプラザ",
-    "passTime": "05:35",
+    "stop": "第2ターミナル国際線",
+    "passTime": "05:42",
     "vehicleType": "南海バス",
-    "updateTime": "2026/07/20 05:40"
+    "updateTime": "2026/07/20 05:43"
   },
   {
     "vehicleNum": "092345",
     "vehicleCd": "160",
     "vehicleCorpCd": "1",
     "running": true,
-    "lat": 34.425389,
-    "lon": 135.228778,
+    "lat": 34.427583,
+    "lon": 135.229889,
     "route": "給油地区→空港駅",
-    "stop": "第2代理店ビル前",
+    "stop": "大阪国際郵便局前",
+    "passTime": "05:43",
+    "vehicleType": "南海バス",
+    "updateTime": "2026/07/20 05:43"
+  },
+  {
+    "vehicleNum": "092372",
+    "vehicleCd": "159",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "lat": 34.473972,
+    "lon": 135.4735,
+    "route": "光明池駅→山田→堺東駅前",
+    "stop": "光明池駅",
+    "passTime": "05:42",
+    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
+    "updateTime": "2026/07/20 05:43"
+  },
+  {
+    "vehicleNum": "093032",
+    "vehicleCd": "231",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "lat": 34.432472,
+    "lon": 135.232,
+    "route": "エアロプラザ→第２ターミナル(国内線・国際線)→エアロプラザ",
+    "stop": "エアロプラザ",
     "passTime": "05:40",
     "vehicleType": "南海バス",
-    "updateTime": "2026/07/20 05:40"
+    "updateTime": "2026/07/20 05:43"
   }
 ]
