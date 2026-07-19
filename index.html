@@ -458,7 +458,7 @@
 
         const busIconCache = {};
 
-        function createBusIcon(vehicle) {
+        function createBusIcon(vehicle, companyConfig) {
             const iconFile =
                 getBusIconFile(vehicle);
 
@@ -466,17 +466,23 @@
                 return null;
             }
 
-            if (!busIconCache[iconFile]) {
-                busIconCache[iconFile] = L.icon({
+            const iconBasePath =
+                companyConfig.iconBasePath || "icons";
+
+            const cacheKey =
+                `${iconBasePath}/${iconFile}`;
+
+            if (!busIconCache[cacheKey]) {
+                busIconCache[cacheKey] = L.icon({
                     iconUrl:
-                        `icons/${iconFile}`,
+                        `${iconBasePath}/${iconFile}`,
                     iconSize: [48, 48],
                     iconAnchor: [24, 24],
                     popupAnchor: [0, -24]
                 });
             }
 
-            return busIconCache[iconFile];
+            return busIconCache[cacheKey];
         }
 
         function escapeHtml(value) {
@@ -488,260 +494,438 @@
                 .replaceAll("'", "&#039;");
         }
 
-      Promise.all([
-    fetch(`data/nankai/gps.json?t=${Date.now()}`)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error(
-                    `gps.json取得失敗: ${response.status}`
-                );
-            }
-            return response.json();
-        }),
-
-    fetch(`data/nankai/vehicles.json?t=${Date.now()}`)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error(
-                    `vehicles.json取得失敗: ${response.status}`
-                );
-            }
-            return response.json();
-        })
-])
-            .then(([buses, vehicleData]) => {
-
-    window.vehicleData = vehicleData;
-const updateElem = document.getElementById("update-time");
-
-if (buses.length > 0) {
-    const updateTime = buses[0].updateTime;
-
-    const updateDate = new Date(updateTime.replace(/\//g, "-"));
-    const now = new Date();
-
-    const diffMin = (now - updateDate) / 1000 / 60;
-
-    updateElem.textContent =
-        `最終更新：${updateTime}（${Math.floor(diffMin)}分前）`;
-
-    if (diffMin < 3) {
-        updateElem.className = "status-green";
-    } else if (diffMin < 5) {
-        updateElem.className = "status-yellow";
-    } else if (diffMin < 10) {
-        updateElem.className = "status-orange";
-    } else {
-        updateElem.className = "status-red";
+        /*
+         * 表示する事業者
+         *
+         * 和歌山バスのデータが完成したら、
+         * companyConfigsへ設定を追加するだけで読み込める。
+         */
+        const companyConfigs = [
+    {
+        id: "nankai",
+        name: "南海バス",
+        dataPath: "data/nankai",
+        iconBasePath: "icons"
+    },
+    {
+        id: "wakayama",
+        name: "和歌山バス",
+        dataPath: "data/wakayama",
+        iconBasePath: "icons"
     }
-}
+];
 
-                console.log(
-                    `GPS：${buses.length}台`
+        const allMarkerGroup = L.featureGroup();
+        const allMissingVehicles = [];
+
+        async function fetchJson(url, label) {
+            const response = await fetch(
+                `${url}?t=${Date.now()}`
+            );
+
+            if (!response.ok) {
+                throw new Error(
+                    `${label}取得失敗: ${response.status}`
                 );
+            }
 
-                console.log(
-                    `車両一覧：${
-                        Object.keys(vehicleData).length
-                    }台`
-                );
-                
+            return response.json();
+        }
 
-                const markerGroup =
-                    L.featureGroup();
-                    const missingVehicles = [];
+        function getLatestUpdate(buses) {
+            return buses
+                .map(bus => bus.updateTime)
+                .filter(Boolean)
+                .map(value => ({
+                    value,
+                    date: new Date(
+                        String(value).replace(/\//g, "-")
+                    )
+                }))
+                .filter(item =>
+                    !Number.isNaN(item.date.getTime())
+                )
+                .sort(
+                    (a, b) =>
+                        b.date.getTime() -
+                        a.date.getTime()
+                )[0] || null;
+        }
 
-                for (const bus of buses) {
-                    const lat =
-                        Number(bus.lat);
+        function updateStatusDisplay(results) {
+            const updateElem =
+                document.getElementById("update-time");
 
-                    const lon =
-                        Number(bus.lon);
+            const latestItems = results
+                .map(result => ({
+                    companyName:
+                        result.companyConfig.name,
+                    latest:
+                        getLatestUpdate(result.buses)
+                }))
+                .filter(item => item.latest);
 
-                    if (
-                        !Number.isFinite(lat) ||
-                        !Number.isFinite(lon)
-                    ) {
-                        continue;
-                    }
+            if (latestItems.length === 0) {
+                updateElem.textContent =
+                    "最終更新：取得できませんでした";
+                updateElem.className = "status-red";
+                return;
+            }
 
-                    const vehicleNum =
-                        String(
-                            bus.vehicleNum || ""
-                        ).padStart(6, "0");
+            latestItems.sort(
+                (a, b) =>
+                    b.latest.date.getTime() -
+                    a.latest.date.getTime()
+            );
 
-                    const vehicle =
-                        vehicleData[vehicleNum];
+            const newest = latestItems[0];
+            const diffMin =
+                (new Date() - newest.latest.date) /
+                1000 /
+                60;
 
-                    const busIcon =
-                        createBusIcon(vehicle);
+            const companyText =
+                companyConfigs.length > 1
+                    ? `${newest.companyName}・`
+                    : "";
 
-                    const markerOptions = {};
+            updateElem.textContent =
+                `最終更新：${companyText}` +
+                `${newest.latest.value}` +
+                `（${Math.max(
+                    0,
+                    Math.floor(diffMin)
+                )}分前）`;
 
-                    if (busIcon) {
-                        markerOptions.icon =
-                            busIcon;
-                    } else {
-    const missingVehicle = {
-        vehicleNum,
-        route:
-            bus.route ||
-            "路線不明",
-        stop:
-            bus.stop ||
-            "現在地不明",
-        model:
-            vehicle?.model ||
-            "",
-        office:
-            vehicle?.office ||
-            "",
-        registration:
-            vehicle?.registration ||
-            "",
-        vehicleFound:
-            Boolean(vehicle)
-    };
+            if (diffMin < 3) {
+                updateElem.className =
+                    "status-green";
+            } else if (diffMin < 5) {
+                updateElem.className =
+                    "status-yellow";
+            } else if (diffMin < 10) {
+                updateElem.className =
+                    "status-orange";
+            } else {
+                updateElem.className =
+                    "status-red";
+            }
+        }
 
-    missingVehicles.push(
-        missingVehicle
-    );
+        function addCompanyMarkers(
+            companyConfig,
+            buses,
+            vehicleData
+        ) {
+            console.log(
+                `${companyConfig.name} GPS：` +
+                `${buses.length}台`
+            );
 
-    console.warn(
-        "アイコン未設定:",
-        missingVehicle
-    );
-}
+            console.log(
+                `${companyConfig.name} 車両一覧：` +
+                `${Object.keys(vehicleData).length}台`
+            );
 
-                    const marker = L.marker(
-                        [lat, lon],
-                        markerOptions
-                    );
-
-                    const model =
-                        vehicle?.model ||
-                        "型式不明";
-
-                    const busTypeName =
-                        getBusTypeName(vehicle);
-
-                    const office =
-                        vehicle?.office ||
-                        "所属不明";
-
-                    const registration =
-                        vehicle?.registration ||
-                        "登録番号不明";
-
-                    const note =
-                        vehicle?.note || "";
-
-                    const popupHtml = `
-                        <div class="bus-popup">
-                            <div class="bus-number">
-                                車番：
-                                ${escapeHtml(
-                                    vehicleNum
-                                )}
-                            </div>
-
-                            <div class="bus-route">
-                                ${escapeHtml(
-                                    bus.route ||
-                                    "路線不明"
-                                )}
-                            </div>
-
-                            <div class="bus-info">
-                                現在地：
-                                ${escapeHtml(
-                                    bus.stop ||
-                                    "不明"
-                                )}
-                                <br>
-
-                                車種：
-                                ${escapeHtml(
-                                    busTypeName
-                                )}
-                                <br>
-
-                                型式：
-                                ${escapeHtml(
-                                    model
-                                )}
-                                <br>
-
-                                所属：
-                                ${escapeHtml(
-                                    office
-                                )}
-                                <br>
-
-                                登録番号：
-                                ${escapeHtml(
-                                    registration
-                                )}
-
-                                ${
-                                    note
-                                        ? `
-                                            <br>
-                                            備考：
-                                            ${escapeHtml(
-                                                note
-                                            )}
-                                        `
-                                        : ""
-                                }
-                            </div>
-                        </div>
-                    `;
-
-                    marker.bindPopup(
-                        popupHtml
-                    );
-
-                    marker.addTo(
-                        markerGroup
-                    );
-                }
-                console.table(
-    missingVehicles
-);
-
-console.log(
-    "型式未判明・アイコン未設定車両:",
-    missingVehicles.length,
-    "台"
-);
-
-window.missingVehicles =
-    missingVehicles;
-
-                markerGroup.addTo(map);
+            for (const bus of buses) {
+                const lat = Number(bus.lat);
+                const lon = Number(bus.lon);
 
                 if (
-                    markerGroup
-                        .getLayers()
-                        .length > 0
+                    !Number.isFinite(lat) ||
+                    !Number.isFinite(lon)
                 ) {
-                    map.fitBounds(
-                        markerGroup.getBounds(),
-                        {
-                            padding: [30, 30]
-                        }
+                    continue;
+                }
+
+                const rawVehicleNum = String(
+    bus.vehicleNum || ""
+).trim();
+
+const vehicleNum =
+    companyConfig.id === "nankai"
+        ? rawVehicleNum.padStart(6, "0")
+        : rawVehicleNum;
+
+const vehicle =
+    vehicleData[vehicleNum];
+
+                const busIcon =
+                    createBusIcon(
+                        vehicle,
+                        companyConfig
+                    );
+
+                const markerOptions = {};
+
+                if (busIcon) {
+                    markerOptions.icon = busIcon;
+                } else {
+                    const missingVehicle = {
+                        company:
+                            companyConfig.name,
+                        vehicleNum,
+                        route:
+                            bus.route ||
+                            "路線不明",
+                        stop:
+                            bus.stop ||
+                            "現在地不明",
+                        model:
+                            vehicle?.model || "",
+                        office:
+                            vehicle?.office || "",
+                        registration:
+                            vehicle?.registration ||
+                            "",
+                        vehicleFound:
+                            Boolean(vehicle)
+                    };
+
+                    allMissingVehicles.push(
+                        missingVehicle
+                    );
+
+                    console.warn(
+                        "アイコン未設定:",
+                        missingVehicle
                     );
                 }
-            })
-            .catch(error => {
-                console.error(error);
 
+                const marker = L.marker(
+                    [lat, lon],
+                    markerOptions
+                );
+
+                const model =
+    vehicle?.type ||
+    vehicle?.model ||
+    "型式不明";
+
+const busTypeName =
+    companyConfig.id === "wakayama"
+        ? (vehicle?.model || "車種不明")
+        : getBusTypeName(vehicle);
+
+const office =
+    vehicle?.office ||
+    vehicle?.company ||
+    "所属不明";
+
+                const registration =
+                    vehicle?.registration ||
+                    "登録番号不明";
+
+                const note =
+                    vehicle?.note || "";
+
+                const companyLine =
+                    companyConfigs.length > 1
+                        ? `
+                            <div class="bus-info">
+                                事業者：
+                                ${escapeHtml(
+                                    companyConfig.name
+                                )}
+                            </div>
+                        `
+                        : "";
+
+                const popupHtml = `
+                    <div class="bus-popup">
+                        <div class="bus-number">
+                            車番：
+                            ${escapeHtml(
+                                vehicleNum
+                            )}
+                        </div>
+
+                        ${companyLine}
+
+                        <div class="bus-route">
+                            ${escapeHtml(
+                                bus.route ||
+                                "路線不明"
+                            )}
+                        </div>
+
+                        <div class="bus-info">
+                            現在地：
+                            ${escapeHtml(
+                                bus.stop ||
+                                "不明"
+                            )}
+                            <br>
+
+                            車種：
+                            ${escapeHtml(
+                                busTypeName
+                            )}
+                            <br>
+
+                            型式：
+                            ${escapeHtml(model)}
+                            <br>
+
+                            所属：
+                            ${escapeHtml(office)}
+                            <br>
+
+                            登録番号：
+                            ${escapeHtml(
+                                registration
+                            )}
+
+                            ${
+                                note
+                                    ? `
+                                        <br>
+                                        備考：
+                                        ${escapeHtml(
+                                            note
+                                        )}
+                                    `
+                                    : ""
+                            }
+                        </div>
+                    </div>
+                `;
+
+                marker.bindPopup(popupHtml);
+                marker.addTo(allMarkerGroup);
+            }
+        }
+
+        async function loadCompany(companyConfig) {
+            const [buses, vehicleData] =
+                await Promise.all([
+                    fetchJson(
+                        `${companyConfig.dataPath}/gps.json`,
+                        `${companyConfig.name} gps.json`
+                    ),
+                    fetchJson(
+                        `${companyConfig.dataPath}/vehicles.json`,
+                        `${companyConfig.name} vehicles.json`
+                    )
+                ]);
+
+            window.vehicleData =
+                window.vehicleData || {};
+
+            window.vehicleData[
+                companyConfig.id
+            ] = vehicleData;
+
+            addCompanyMarkers(
+                companyConfig,
+                buses,
+                vehicleData
+            );
+
+            return {
+                companyConfig,
+                buses,
+                vehicleData
+            };
+        }
+
+        async function loadAllCompanies() {
+            const settledResults =
+                await Promise.allSettled(
+                    companyConfigs.map(
+                        companyConfig =>
+                            loadCompany(
+                                companyConfig
+                            )
+                    )
+                );
+
+            const successfulResults = [];
+            const errors = [];
+
+            settledResults.forEach(
+                (result, index) => {
+                    if (
+                        result.status ===
+                        "fulfilled"
+                    ) {
+                        successfulResults.push(
+                            result.value
+                        );
+                    } else {
+                        const companyConfig =
+                            companyConfigs[index];
+
+                        console.error(
+                            `${companyConfig.name}の` +
+                            "読み込みに失敗:",
+                            result.reason
+                        );
+
+                        errors.push(
+                            `${companyConfig.name}：` +
+                            `${
+                                result.reason
+                                    ?.message ||
+                                "不明なエラー"
+                            }`
+                        );
+                    }
+                }
+            );
+
+            allMarkerGroup.addTo(map);
+
+            if (
+                allMarkerGroup
+                    .getLayers()
+                    .length > 0
+            ) {
+                map.fitBounds(
+                    allMarkerGroup.getBounds(),
+                    {
+                        padding: [30, 30]
+                    }
+                );
+            }
+
+            console.table(
+                allMissingVehicles
+            );
+
+            console.log(
+                "型式未判明・" +
+                "アイコン未設定車両:",
+                allMissingVehicles.length,
+                "台"
+            );
+
+            window.missingVehicles =
+                allMissingVehicles;
+
+            updateStatusDisplay(
+                successfulResults
+            );
+
+            if (
+                errors.length > 0 &&
+                successfulResults.length === 0
+            ) {
                 alert(
                     "バス情報を読み込めませんでした。\n" +
-                    error.message
+                    errors.join("\n")
                 );
-            });
+            } else if (errors.length > 0) {
+                console.warn(
+                    "一部事業者のデータを" +
+                    "読み込めませんでした:",
+                    errors
+                );
+            }
+        }
+
+        loadAllCompanies();
+
             setTimeout(
     () => {
         location.reload();
