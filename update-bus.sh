@@ -17,12 +17,15 @@ git restore \
 git pull --rebase origin main
 
 /usr/bin/node scraper.js
+/usr/bin/node scraper-wakayama.js
 
 git add \
   data/nankai/buses.json \
   data/nankai/gps.json \
   data/nankai/bus-no-gps.json \
-  data/nankai/bus-errors.json
+  data/nankai/bus-errors.json \
+  data/wakayama/gps.json \
+  data/wakayama/vehicles.json
 
 if git diff --cached --quiet; then
   echo "更新なし"
