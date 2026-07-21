@@ -4,12 +4,25 @@
     "vehicleCd": "204",
     "vehicleCorpCd": "1",
     "running": true,
-    "lat": 34.430278,
-    "lon": 135.225278,
+    "lat": 34.4255,
+    "lon": 135.231,
     "route": "給油地区→ＦｅｄＥｘ→空港駅",
-    "stop": "二期島国際貨物駐車場前",
-    "passTime": "02:45",
+    "stop": "JAL輸出ビル前",
+    "passTime": "02:47",
     "vehicleType": "南海バス(車椅子・ノンステップ)",
-    "updateTime": "2026/07/22 02:45"
+    "updateTime": "2026/07/22 02:48"
+  },
+  {
+    "vehicleNum": "092936",
+    "vehicleCd": "322",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "lat": 34.432389,
+    "lon": 135.234694,
+    "route": "空港駅→給油地区",
+    "stop": "空港駅",
+    "passTime": "02:46",
+    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
+    "updateTime": "2026/07/22 02:48"
   }
 ]
