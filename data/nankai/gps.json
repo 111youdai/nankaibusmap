@@ -4,51 +4,64 @@
     "vehicleCd": "198",
     "vehicleCorpCd": "1",
     "running": true,
-    "lat": 34.427889,
-    "lon": 135.229694,
+    "lat": 34.426583,
+    "lon": 135.2275,
     "route": "空港駅→給油地区",
-    "stop": "大阪国際郵便局前",
-    "passTime": "05:23",
+    "stop": "貨物合同庁舎前",
+    "passTime": "05:26",
     "vehicleType": "南海バス(車椅子・ノンステップ)",
-    "updateTime": "2026/07/22 05:23"
+    "updateTime": "2026/07/22 05:26"
   },
   {
     "vehicleNum": "091601",
     "vehicleCd": "202",
     "vehicleCorpCd": "1",
     "running": true,
-    "lat": 34.426778,
-    "lon": 135.226889,
+    "lat": 34.433778,
+    "lon": 135.222889,
     "route": "給油地区→ＦｅｄＥｘ→空港駅",
-    "stop": "浄化センター前",
-    "passTime": "05:22",
+    "stop": "国際貨物FedEx前",
+    "passTime": "05:26",
     "vehicleType": "南海バス(車椅子・ノンステップ)",
-    "updateTime": "2026/07/22 05:23"
+    "updateTime": "2026/07/22 05:26"
   },
   {
     "vehicleNum": "092398",
     "vehicleCd": "41",
     "vehicleCorpCd": "1",
     "running": true,
-    "lat": 34.436,
-    "lon": 135.233194,
+    "lat": 34.437694,
+    "lon": 135.231194,
     "route": "エアロプラザ→第２ターミナル(国内線・国際線)→エアロプラザ",
     "stop": "エアロプラザ",
     "passTime": "05:20",
     "vehicleType": "南海バス(車椅子・ノンステップ)",
-    "updateTime": "2026/07/22 05:23"
+    "updateTime": "2026/07/22 05:26"
+  },
+  {
+    "vehicleNum": "092936",
+    "vehicleCd": "322",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "lat": 34.434278,
+    "lon": 135.238083,
+    "route": "エアロプラザ→第２ターミナル(国内線・国際線)→エアロプラザ",
+    "stop": "エアロプラザ",
+    "passTime": "05:25",
+    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
+    "updateTime": "2026/07/22 05:26"
   },
   {
     "vehicleNum": "093074",
     "vehicleCd": "247",
     "vehicleCorpCd": "1",
     "running": true,
-    "lat": 34.484889,
+    "lat": 34.497889,
     "lon": 135.466778,
     "route": "光明池駅→山田→堺東駅前",
-    "stop": "檜尾山",
-    "passTime": "05:23",
+    "stop": "北高尾",
+    "passTime": "05:26",
     "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/07/22 05:24"
+    "updateTime": "2026/07/22 05:26"
   }
 ]
