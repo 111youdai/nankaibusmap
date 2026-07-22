@@ -1,5 +1,18 @@
 [
   {
+    "vehicleNum": "091658",
+    "vehicleCd": "203",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "lat": 34.420889,
+    "lon": 135.2225,
+    "route": "給油地区→空港駅",
+    "stop": "給油地区",
+    "passTime": "25:08",
+    "vehicleType": "南海バス(車椅子・ノンステップ)",
+    "updateTime": "2026/07/23 01:08"
+  },
+  {
     "vehicleNum": "091747",
     "vehicleCd": "333",
     "vehicleCorpCd": "1",
@@ -10,7 +23,7 @@
     "stop": "下高向",
     "passTime": "17:12",
     "vehicleType": "南海バス(車椅子・ベビーカー・ワンステップ)",
-    "updateTime": "2026/07/23 01:05"
+    "updateTime": "2026/07/23 01:08"
   },
   {
     "vehicleNum": "092235",
@@ -23,7 +36,7 @@
     "stop": "緑ヶ丘団地",
     "passTime": "15:19",
     "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/07/23 01:05"
+    "updateTime": "2026/07/23 01:08"
   },
   {
     "vehicleNum": "092863",
@@ -36,6 +49,6 @@
     "stop": "山戸",
     "passTime": "16:17",
     "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/07/23 01:05"
+    "updateTime": "2026/07/23 01:08"
   }
 ]
