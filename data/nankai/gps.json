@@ -4,25 +4,38 @@
     "vehicleCd": "198",
     "vehicleCorpCd": "1",
     "running": true,
-    "lat": 34.424694,
-    "lon": 135.225583,
-    "route": "空港駅→ＦｅｄＥｘ→給油地区",
-    "stop": "浄化センター前",
-    "passTime": "05:18",
+    "lat": 34.420889,
+    "lon": 135.2225,
+    "route": "給油地区→ＦｅｄＥｘ→空港駅",
+    "stop": "給油地区",
+    "passTime": "05:21",
     "vehicleType": "南海バス(車椅子・ノンステップ)",
-    "updateTime": "2026/07/23 05:18"
+    "updateTime": "2026/07/23 05:21"
   },
   {
     "vehicleNum": "092372",
     "vehicleCd": "159",
     "vehicleCorpCd": "1",
     "running": true,
-    "lat": 34.470889,
-    "lon": 135.476083,
+    "lat": 34.473,
+    "lon": 135.4675,
     "route": "光明池駅→山田→堺東駅前",
-    "stop": "光明池駅",
-    "passTime": "05:15",
+    "stop": "変電所前",
+    "passTime": "05:20",
     "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/07/23 05:18"
+    "updateTime": "2026/07/23 05:21"
+  },
+  {
+    "vehicleNum": "092936",
+    "vehicleCd": "322",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "lat": 34.435083,
+    "lon": 135.2395,
+    "route": "空港駅→給油地区",
+    "stop": "空港駅",
+    "passTime": "05:20",
+    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
+    "updateTime": "2026/07/23 05:21"
   }
 ]
