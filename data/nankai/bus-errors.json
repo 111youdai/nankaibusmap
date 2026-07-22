@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "vehicleNum": "092503",
+    "vehicleCd": "146",
+    "vehicleCorpCd": "2",
+    "running": true,
+    "error": "connect EHOSTUNREACH 180.42.98.169:443"
+  },
+  {
+    "vehicleNum": "092502",
+    "vehicleCd": "140",
+    "vehicleCorpCd": "2",
+    "running": true,
+    "error": "timeout of 30000ms exceeded"
+  }
+]
