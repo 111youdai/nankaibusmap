@@ -1,5 +1,11 @@
 [
   {
+    "vehicleNum": "070107",
+    "vehicleCd": "405",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
     "vehicleNum": "070105",
     "vehicleCd": "403",
     "vehicleCorpCd": "1",
@@ -8,12 +14,6 @@
   {
     "vehicleNum": "070108",
     "vehicleCd": "406",
-    "vehicleCorpCd": "1",
-    "running": true
-  },
-  {
-    "vehicleNum": "070107",
-    "vehicleCd": "405",
     "vehicleCorpCd": "1",
     "running": true
   },
@@ -36,14 +36,14 @@
     "running": true
   },
   {
-    "vehicleNum": "071322",
-    "vehicleCd": "142",
+    "vehicleNum": "071321",
+    "vehicleCd": "141",
     "vehicleCorpCd": "2",
     "running": true
   },
   {
-    "vehicleNum": "071321",
-    "vehicleCd": "141",
+    "vehicleNum": "071322",
+    "vehicleCd": "142",
     "vehicleCorpCd": "2",
     "running": true
   },
@@ -54,20 +54,8 @@
     "running": true
   },
   {
-    "vehicleNum": "071604",
-    "vehicleCd": "217",
-    "vehicleCorpCd": "1",
-    "running": true
-  },
-  {
-    "vehicleNum": "071603",
-    "vehicleCd": "410",
-    "vehicleCorpCd": "1",
-    "running": true
-  },
-  {
-    "vehicleNum": "071605",
-    "vehicleCd": "412",
+    "vehicleNum": "071601",
+    "vehicleCd": "408",
     "vehicleCorpCd": "1",
     "running": true
   },
@@ -78,20 +66,26 @@
     "running": true
   },
   {
+    "vehicleNum": "071604",
+    "vehicleCd": "217",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
     "vehicleNum": "080114",
     "vehicleCd": "515",
     "vehicleCorpCd": "1",
     "running": true
   },
   {
-    "vehicleNum": "080180",
-    "vehicleCd": "68",
+    "vehicleNum": "080171",
+    "vehicleCd": "40",
     "vehicleCorpCd": "2",
     "running": true
   },
   {
-    "vehicleNum": "080186",
-    "vehicleCd": "39",
+    "vehicleNum": "080180",
+    "vehicleCd": "68",
     "vehicleCorpCd": "2",
     "running": true
   },
@@ -120,32 +114,14 @@
     "running": true
   },
   {
-    "vehicleNum": "080388",
-    "vehicleCd": "52",
-    "vehicleCorpCd": "2",
-    "running": true
-  },
-  {
     "vehicleNum": "080463",
     "vehicleCd": "36",
     "vehicleCorpCd": "2",
     "running": true
   },
   {
-    "vehicleNum": "080482",
-    "vehicleCd": "156",
-    "vehicleCorpCd": "1",
-    "running": true
-  },
-  {
     "vehicleNum": "080628",
     "vehicleCd": "445",
-    "vehicleCorpCd": "1",
-    "running": true
-  },
-  {
-    "vehicleNum": "080629",
-    "vehicleCd": "447",
     "vehicleCorpCd": "1",
     "running": true
   },
@@ -162,20 +138,38 @@
     "running": true
   },
   {
+    "vehicleNum": "080629",
+    "vehicleCd": "447",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080651",
+    "vehicleCd": "455",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080652",
+    "vehicleCd": "456",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
     "vehicleNum": "080677",
     "vehicleCd": "228",
     "vehicleCorpCd": "1",
     "running": true
   },
   {
-    "vehicleNum": "080698",
-    "vehicleCd": "531",
+    "vehicleNum": "080697",
+    "vehicleCd": "461",
     "vehicleCorpCd": "1",
     "running": true
   },
   {
-    "vehicleNum": "080697",
-    "vehicleCd": "461",
+    "vehicleNum": "080698",
+    "vehicleCd": "531",
     "vehicleCorpCd": "1",
     "running": true
   },
@@ -210,14 +204,14 @@
     "running": true
   },
   {
-    "vehicleNum": "080745",
-    "vehicleCd": "57",
+    "vehicleNum": "080746",
+    "vehicleCd": "395",
     "vehicleCorpCd": "1",
     "running": true
   },
   {
-    "vehicleNum": "080746",
-    "vehicleCd": "395",
+    "vehicleNum": "080745",
+    "vehicleCd": "57",
     "vehicleCorpCd": "1",
     "running": true
   },
@@ -228,14 +222,14 @@
     "running": true
   },
   {
-    "vehicleNum": "080757",
-    "vehicleCd": "182",
+    "vehicleNum": "080756",
+    "vehicleCd": "315",
     "vehicleCorpCd": "1",
     "running": true
   },
   {
-    "vehicleNum": "080756",
-    "vehicleCd": "315",
+    "vehicleNum": "080757",
+    "vehicleCd": "182",
     "vehicleCorpCd": "1",
     "running": true
   },
@@ -252,14 +246,20 @@
     "running": true
   },
   {
-    "vehicleNum": "080815",
-    "vehicleCd": "575",
+    "vehicleNum": "080800",
+    "vehicleCd": "304",
     "vehicleCorpCd": "1",
     "running": true
   },
   {
     "vehicleNum": "080822",
     "vehicleCd": "576",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080815",
+    "vehicleCd": "575",
     "vehicleCorpCd": "1",
     "running": true
   },
@@ -272,6 +272,12 @@
   {
     "vehicleNum": "080835",
     "vehicleCd": "310",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080827",
+    "vehicleCd": "317",
     "vehicleCorpCd": "1",
     "running": true
   },
@@ -300,12 +306,6 @@
     "running": true
   },
   {
-    "vehicleNum": "080864",
-    "vehicleCd": "146",
-    "vehicleCorpCd": "1",
-    "running": true
-  },
-  {
     "vehicleNum": "080866",
     "vehicleCd": "497",
     "vehicleCorpCd": "1",
@@ -318,8 +318,8 @@
     "running": true
   },
   {
-    "vehicleNum": "080869",
-    "vehicleCd": "316",
+    "vehicleNum": "080873",
+    "vehicleCd": "144",
     "vehicleCorpCd": "1",
     "running": true
   },
@@ -336,8 +336,8 @@
     "running": true
   },
   {
-    "vehicleNum": "080900",
-    "vehicleCd": "386",
+    "vehicleNum": "080899",
+    "vehicleCd": "498",
     "vehicleCorpCd": "1",
     "running": true
   },
@@ -362,6 +362,12 @@
   {
     "vehicleNum": "080904",
     "vehicleCd": "362",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080905",
+    "vehicleCd": "353",
     "vehicleCorpCd": "1",
     "running": true
   },
@@ -408,14 +414,14 @@
     "running": true
   },
   {
-    "vehicleNum": "081008",
-    "vehicleCd": "47",
+    "vehicleNum": "080995",
+    "vehicleCd": "118",
     "vehicleCorpCd": "1",
     "running": true
   },
   {
-    "vehicleNum": "081013",
-    "vehicleCd": "554",
+    "vehicleNum": "081005",
+    "vehicleCd": "272",
     "vehicleCorpCd": "1",
     "running": true
   },
@@ -432,14 +438,20 @@
     "running": true
   },
   {
-    "vehicleNum": "081041",
-    "vehicleCd": "611",
+    "vehicleNum": "081037",
+    "vehicleCd": "236",
     "vehicleCorpCd": "1",
     "running": true
   },
   {
     "vehicleNum": "081035",
     "vehicleCd": "491",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "081044",
+    "vehicleCd": "132",
     "vehicleCorpCd": "1",
     "running": true
   },
@@ -468,15 +480,15 @@
     "running": true
   },
   {
-    "vehicleNum": "090330",
-    "vehicleCd": "196",
-    "vehicleCorpCd": "1",
-    "running": true
-  },
-  {
     "vehicleNum": "090176",
     "vehicleCd": "101",
     "vehicleCorpCd": "2",
+    "running": true
+  },
+  {
+    "vehicleNum": "090330",
+    "vehicleCd": "196",
+    "vehicleCorpCd": "1",
     "running": true
   },
   {
@@ -516,14 +528,20 @@
     "running": true
   },
   {
-    "vehicleNum": "091295",
-    "vehicleCd": "510",
-    "vehicleCorpCd": "1",
+    "vehicleNum": "091243",
+    "vehicleCd": "13",
+    "vehicleCorpCd": "2",
     "running": true
   },
   {
     "vehicleNum": "091202",
     "vehicleCd": "275",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "091295",
+    "vehicleCd": "510",
     "vehicleCorpCd": "1",
     "running": true
   },
@@ -534,15 +552,9 @@
     "running": true
   },
   {
-    "vehicleNum": "091360",
-    "vehicleCd": "433",
+    "vehicleNum": "091445",
+    "vehicleCd": "426",
     "vehicleCorpCd": "1",
-    "running": true
-  },
-  {
-    "vehicleNum": "091243",
-    "vehicleCd": "13",
-    "vehicleCorpCd": "2",
     "running": true
   },
   {
@@ -570,9 +582,21 @@
     "running": true
   },
   {
+    "vehicleNum": "091658",
+    "vehicleCd": "203",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
     "vehicleNum": "091671",
     "vehicleCd": "518",
     "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "091746",
+    "vehicleCd": "8",
+    "vehicleCorpCd": "2",
     "running": true
   },
   {
@@ -582,14 +606,8 @@
     "running": true
   },
   {
-    "vehicleNum": "091740",
-    "vehicleCd": "105",
-    "vehicleCorpCd": "2",
-    "running": true
-  },
-  {
-    "vehicleNum": "091746",
-    "vehicleCd": "8",
+    "vehicleNum": "091785",
+    "vehicleCd": "120",
     "vehicleCorpCd": "2",
     "running": true
   },
@@ -618,12 +636,6 @@
     "running": true
   },
   {
-    "vehicleNum": "091850",
-    "vehicleCd": "211",
-    "vehicleCorpCd": "1",
-    "running": true
-  },
-  {
     "vehicleNum": "091968",
     "vehicleCd": "448",
     "vehicleCorpCd": "1",
@@ -642,14 +654,20 @@
     "running": true
   },
   {
-    "vehicleNum": "092188",
-    "vehicleCd": "166",
+    "vehicleNum": "092172",
+    "vehicleCd": "18",
     "vehicleCorpCd": "1",
     "running": true
   },
   {
-    "vehicleNum": "092172",
-    "vehicleCd": "18",
+    "vehicleNum": "092187",
+    "vehicleCd": "19",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092188",
+    "vehicleCd": "166",
     "vehicleCorpCd": "1",
     "running": true
   },
@@ -684,15 +702,21 @@
     "running": true
   },
   {
-    "vehicleNum": "092384",
-    "vehicleCd": "558",
+    "vehicleNum": "092451",
+    "vehicleCd": "123",
+    "vehicleCorpCd": "2",
+    "running": true
+  },
+  {
+    "vehicleNum": "092467",
+    "vehicleCd": "50",
     "vehicleCorpCd": "1",
     "running": true
   },
   {
-    "vehicleNum": "092451",
-    "vehicleCd": "123",
-    "vehicleCorpCd": "2",
+    "vehicleNum": "092469",
+    "vehicleCd": "220",
+    "vehicleCorpCd": "1",
     "running": true
   },
   {
@@ -714,14 +738,20 @@
     "running": true
   },
   {
+    "vehicleNum": "092533",
+    "vehicleCd": "288",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
     "vehicleNum": "092569",
     "vehicleCd": "266",
     "vehicleCorpCd": "1",
     "running": true
   },
   {
-    "vehicleNum": "092581",
-    "vehicleCd": "375",
+    "vehicleNum": "092571",
+    "vehicleCd": "314",
     "vehicleCorpCd": "1",
     "running": true
   },
@@ -732,8 +762,8 @@
     "running": true
   },
   {
-    "vehicleNum": "092587",
-    "vehicleCd": "124",
+    "vehicleNum": "092581",
+    "vehicleCd": "375",
     "vehicleCorpCd": "1",
     "running": true
   },
@@ -774,8 +804,8 @@
     "running": true
   },
   {
-    "vehicleNum": "092734",
-    "vehicleCd": "289",
+    "vehicleNum": "092757",
+    "vehicleCd": "306",
     "vehicleCorpCd": "1",
     "running": true
   },
@@ -792,8 +822,14 @@
     "running": true
   },
   {
-    "vehicleNum": "092856",
-    "vehicleCd": "601",
+    "vehicleNum": "092734",
+    "vehicleCd": "289",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092758",
+    "vehicleCd": "363",
     "vehicleCorpCd": "1",
     "running": true
   },
@@ -816,14 +852,14 @@
     "running": true
   },
   {
-    "vehicleNum": "092915",
-    "vehicleCd": "346",
+    "vehicleNum": "092914",
+    "vehicleCd": "75",
     "vehicleCorpCd": "1",
     "running": true
   },
   {
-    "vehicleNum": "092914",
-    "vehicleCd": "75",
+    "vehicleNum": "092915",
+    "vehicleCd": "346",
     "vehicleCorpCd": "1",
     "running": true
   },
@@ -834,14 +870,8 @@
     "running": true
   },
   {
-    "vehicleNum": "092974",
-    "vehicleCd": "260",
-    "vehicleCorpCd": "1",
-    "running": true
-  },
-  {
-    "vehicleNum": "092978",
-    "vehicleCd": "325",
+    "vehicleNum": "092953",
+    "vehicleCd": "122",
     "vehicleCorpCd": "1",
     "running": true
   },
@@ -854,6 +884,12 @@
   {
     "vehicleNum": "093072",
     "vehicleCd": "369",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "093113",
+    "vehicleCd": "133",
     "vehicleCorpCd": "1",
     "running": true
   }
