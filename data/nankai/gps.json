@@ -1,18 +1,5 @@
 [
   {
-    "vehicleNum": "080789",
-    "vehicleCd": "300",
-    "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.576889,
-    "lon": 135.496694,
-    "route": "海浜匠町→匠町→堺駅西口→堺東駅前→阪和堺市駅前",
-    "stop": "田出井町",
-    "passTime": "23:56",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/07/26 23:58"
-  },
-  {
     "vehicleNum": "091792",
     "vehicleCd": "59",
     "vehicleCorpCd": "1",
@@ -23,6 +10,19 @@
     "stop": "旅客ターミナル",
     "passTime": "15:30",
     "vehicleType": "南海バス(車椅子・ノンステップ)",
-    "updateTime": "2026/07/26 23:59"
+    "updateTime": "2026/07/27 00:02"
+  },
+  {
+    "vehicleNum": "092153",
+    "vehicleCd": "529",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "lat": 34.432472,
+    "lon": 135.235389,
+    "route": "エアロプラザ→第２ターミナル(国内線・国際線)→エアロプラザ",
+    "stop": "エアロプラザ",
+    "passTime": "24:00",
+    "vehicleType": "南海バス",
+    "updateTime": "2026/07/27 00:02"
   }
 ]
