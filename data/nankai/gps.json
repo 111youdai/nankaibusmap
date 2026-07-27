@@ -10,7 +10,7 @@
     "stop": "高松北",
     "passTime": "20:47",
     "vehicleType": "南海バス",
-    "updateTime": "2026/07/28 01:06"
+    "updateTime": "2026/07/28 01:09"
   },
   {
     "vehicleNum": "090806",
@@ -23,6 +23,19 @@
     "stop": "公団西口",
     "passTime": "14:23",
     "vehicleType": "南海バス(車椅子・ノンステップ)",
-    "updateTime": "2026/07/28 01:06"
+    "updateTime": "2026/07/28 01:09"
+  },
+  {
+    "vehicleNum": "091659",
+    "vehicleCd": "204",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "lat": 34.424778,
+    "lon": 135.2255,
+    "route": "給油地区→空港駅",
+    "stop": "浄化センター前",
+    "passTime": "25:09",
+    "vehicleType": "南海バス(車椅子・ノンステップ)",
+    "updateTime": "2026/07/28 01:09"
   }
 ]
