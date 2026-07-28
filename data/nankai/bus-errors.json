@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "vehicleNum": "080799",
+    "vehicleCd": "339",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "error": "connect EHOSTUNREACH 180.42.98.169:443"
+  },
+  {
+    "vehicleNum": "080798",
+    "vehicleCd": "107",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "error": "connect EHOSTUNREACH 180.42.98.169:443"
+  },
+  {
+    "vehicleNum": "092394",
+    "vehicleCd": "42",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "error": "stream has been aborted"
+  }
+]
