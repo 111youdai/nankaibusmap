@@ -1134,12 +1134,6 @@
     "running": true
   },
   {
-    "vehicleNum": "091791",
-    "vehicleCd": "206",
-    "vehicleCorpCd": "1",
-    "running": true
-  },
-  {
     "vehicleNum": "091792",
     "vehicleCd": "59",
     "vehicleCorpCd": "1",
@@ -1256,6 +1250,12 @@
   {
     "vehicleNum": "092383",
     "vehicleCd": "44",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092384",
+    "vehicleCd": "558",
     "vehicleCorpCd": "1",
     "running": true
   },
@@ -2829,6 +2829,12 @@
     "vehicleNum": "091785",
     "vehicleCd": "120",
     "vehicleCorpCd": "2",
+    "running": false
+  },
+  {
+    "vehicleNum": "091791",
+    "vehicleCd": "206",
+    "vehicleCorpCd": "1",
     "running": false
   },
   {
