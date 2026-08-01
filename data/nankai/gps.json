@@ -10,20 +10,20 @@
     "stop": "青年会場前",
     "passTime": "08:22",
     "vehicleType": "南海ウイングバス",
-    "updateTime": "2026/08/01 23:35"
+    "updateTime": "2026/08/01 23:38"
   },
   {
     "vehicleNum": "080697",
     "vehicleCd": "461",
     "vehicleCorpCd": "1",
     "running": true,
-    "lat": 34.5935,
-    "lon": 135.468083,
+    "lat": 34.587389,
+    "lon": 135.469694,
     "route": "海浜匠町→匠町→堺駅西口→堺東駅前→阪和堺市駅前",
-    "stop": "塩浜町",
-    "passTime": "23:34",
+    "stop": "三宝公園前",
+    "passTime": "23:38",
     "vehicleType": "南海バス",
-    "updateTime": "2026/08/01 23:35"
+    "updateTime": "2026/08/01 23:38"
   },
   {
     "vehicleNum": "091739",
@@ -36,32 +36,45 @@
     "stop": "新道出",
     "passTime": "07:42",
     "vehicleType": "南海ウイングバス(車椅子・ベビーカー・ワンステップ)",
-    "updateTime": "2026/08/01 23:35"
+    "updateTime": "2026/08/01 23:38"
   },
   {
     "vehicleNum": "092153",
     "vehicleCd": "529",
     "vehicleCorpCd": "1",
     "running": true,
-    "lat": 34.436389,
-    "lon": 135.233778,
+    "lat": 34.438194,
+    "lon": 135.2315,
     "route": "エアロプラザ→第２ターミナル(国内線・国際線)→エアロプラザ",
-    "stop": "エアロプラザ",
-    "passTime": "23:32",
+    "stop": "第2ターミナル国内線",
+    "passTime": "23:38",
     "vehicleType": "南海バス",
-    "updateTime": "2026/08/01 23:35"
+    "updateTime": "2026/08/01 23:38"
+  },
+  {
+    "vehicleNum": "092936",
+    "vehicleCd": "322",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "lat": 34.426583,
+    "lon": 135.2275,
+    "route": "給油地区→空港駅",
+    "stop": "貨物合同庁舎前",
+    "passTime": "23:38",
+    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
+    "updateTime": "2026/08/01 23:38"
   },
   {
     "vehicleNum": "093032",
     "vehicleCd": "231",
     "vehicleCorpCd": "1",
     "running": true,
-    "lat": 34.433889,
-    "lon": 135.237278,
+    "lat": 34.4365,
+    "lon": 135.243194,
     "route": "エアロプラザ→第２ターミナル(国内線・国際線)→エアロプラザ",
     "stop": "第2ターミナル国際線",
     "passTime": "23:32",
     "vehicleType": "南海バス",
-    "updateTime": "2026/08/01 23:35"
+    "updateTime": "2026/08/01 23:38"
   }
 ]
