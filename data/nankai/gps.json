@@ -10,6 +10,32 @@
     "stop": "公団西口",
     "passTime": "13:55",
     "vehicleType": "南海バス(車椅子・ノンステップ)",
-    "updateTime": "2026/08/18 00:06"
+    "updateTime": "2026/08/18 00:09"
+  },
+  {
+    "vehicleNum": "091596",
+    "vehicleCd": "200",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "lat": 34.422778,
+    "lon": 135.225278,
+    "route": "給油地区→空港駅",
+    "stop": "ANA車輌整備工場前",
+    "passTime": "24:08",
+    "vehicleType": "南海バス(車椅子・ノンステップ)",
+    "updateTime": "2026/08/18 00:09"
+  },
+  {
+    "vehicleNum": "093035",
+    "vehicleCd": "609",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "lat": 34.433972,
+    "lon": 135.232583,
+    "route": "エアロプラザ→第２ターミナル(国内線・国際線)→エアロプラザ",
+    "stop": "第2ターミナル国際線",
+    "passTime": "24:07",
+    "vehicleType": "南海バス",
+    "updateTime": "2026/08/18 00:09"
   }
 ]
