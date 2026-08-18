@@ -4,12 +4,25 @@
     "vehicleCd": "26",
     "vehicleCorpCd": "1",
     "running": true,
-    "lat": 34.425389,
-    "lon": 135.228694,
-    "route": "給油地区→空港駅",
-    "stop": "第2代理店ビル前",
-    "passTime": "02:43",
+    "lat": 34.436194,
+    "lon": 135.242694,
+    "route": "空港駅→ＦｅｄＥｘ→給油地区",
+    "stop": "空港駅",
+    "passTime": "02:49",
     "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/19 02:43"
+    "updateTime": "2026/08/19 02:50"
+  },
+  {
+    "vehicleNum": "091792",
+    "vehicleCd": "59",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "lat": 34.427889,
+    "lon": 135.229694,
+    "route": "空港駅→給油地区",
+    "stop": "大阪国際郵便局前",
+    "passTime": "02:50",
+    "vehicleType": "南海バス(車椅子・ノンステップ)",
+    "updateTime": "2026/08/19 02:50"
   }
 ]
