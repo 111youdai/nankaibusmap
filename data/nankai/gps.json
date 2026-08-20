@@ -10,7 +10,20 @@
     "stop": "茶山台２丁",
     "passTime": "10:49",
     "vehicleType": "泉北コミュニティバス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/21 00:36"
+    "updateTime": "2026/08/21 00:39"
+  },
+  {
+    "vehicleNum": "090331",
+    "vehicleCd": "197",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "lat": 34.436278,
+    "lon": 135.232583,
+    "route": "エアロプラザ→第２ターミナル(国内線・国際線)→エアロプラザ",
+    "stop": "エアロプラザ",
+    "passTime": "24:36",
+    "vehicleType": "南海バス(車椅子・ベビーカー・ワンステップ)",
+    "updateTime": "2026/08/21 00:40"
   },
   {
     "vehicleNum": "091601",
@@ -18,11 +31,11 @@
     "vehicleCorpCd": "1",
     "running": true,
     "lat": 34.422778,
-    "lon": 135.225389,
-    "route": "空港駅→ＦｅｄＥｘ→給油地区",
+    "lon": 135.225194,
+    "route": "給油地区→ＦｅｄＥｘ→空港駅",
     "stop": "ANA車輌整備工場前",
-    "passTime": "24:37",
+    "passTime": "24:39",
     "vehicleType": "南海バス(車椅子・ノンステップ)",
-    "updateTime": "2026/08/21 00:37"
+    "updateTime": "2026/08/21 00:40"
   }
 ]
