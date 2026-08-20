@@ -1,9 +1,30 @@
 [
   {
-    "vehicleNum": "080825",
-    "vehicleCd": "261",
+    "vehicleNum": "080854",
+    "vehicleCd": "17",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "error": "socket hang up"
+  },
+  {
+    "vehicleNum": "092579",
+    "vehicleCd": "579",
     "vehicleCorpCd": "1",
     "running": true,
     "error": "connect EHOSTUNREACH 180.42.98.169:443"
+  },
+  {
+    "vehicleNum": "092581",
+    "vehicleCd": "375",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "error": "getaddrinfo EAI_AGAIN loc.bus-vision.jp"
+  },
+  {
+    "vehicleNum": "092580",
+    "vehicleCd": "377",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "error": "getaddrinfo EAI_AGAIN loc.bus-vision.jp"
   }
 ]
