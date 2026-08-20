@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "vehicleNum": "080790",
+    "vehicleCd": "106",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "error": "connect EHOSTUNREACH 180.42.98.169:443"
+  },
+  {
+    "vehicleNum": "080788",
+    "vehicleCd": "299",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "error": "getaddrinfo EAI_AGAIN loc.bus-vision.jp"
+  }
+]
