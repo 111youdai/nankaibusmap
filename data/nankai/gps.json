@@ -1,717 +1,1262 @@
 [
   {
+    "vehicleNum": "070104",
+    "vehicleCd": "402",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
     "vehicleNum": "070107",
     "vehicleCd": "405",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.482,
-    "lon": 135.541278,
-    "route": "金剛駅前→狭山ニュータウンセンター→泉ヶ丘駅",
-    "stop": "西山台南",
-    "passTime": "06:18",
-    "vehicleType": "泉北コミュニティバス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
   },
   {
     "vehicleNum": "070108",
     "vehicleCd": "406",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.484278,
-    "lon": 135.544972,
-    "route": "泉ヶ丘駅→狭山ニュータウンセンター→金剛駅前",
-    "stop": "狭山ニュータウンセンター",
-    "passTime": "06:19",
-    "vehicleType": "泉北コミュニティバス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
+  },
+  {
+    "vehicleNum": "071283",
+    "vehicleCd": "430",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "071601",
     "vehicleCd": "408",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.575889,
-    "lon": 135.479,
-    "route": "堺駅前→大小路→堺東駅前",
-    "stop": "熊野小学校前",
-    "passTime": "06:19",
-    "vehicleType": "堺シャトル(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
   },
   {
     "vehicleNum": "071604",
     "vehicleCd": "217",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.5775,
-    "lon": 135.476194,
-    "route": "堺東駅前→大小路→堺駅前",
-    "stop": "大寺北門山之口前",
-    "passTime": "06:19",
-    "vehicleType": "堺シャトル(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
   },
   {
-    "vehicleNum": "080627",
-    "vehicleCd": "446",
+    "vehicleNum": "080105",
+    "vehicleCd": "127",
+    "vehicleCorpCd": "2",
+    "running": true
+  },
+  {
+    "vehicleNum": "080134",
+    "vehicleCd": "118",
+    "vehicleCorpCd": "2",
+    "running": true
+  },
+  {
+    "vehicleNum": "080177",
+    "vehicleCd": "126",
+    "vehicleCorpCd": "2",
+    "running": true
+  },
+  {
+    "vehicleNum": "080483",
+    "vehicleCd": "157",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.565194,
-    "lon": 135.5175,
-    "route": "美原区役所→野遠→地下鉄新金岡駅前",
-    "stop": "北区役所前",
-    "passTime": "06:18",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
+  },
+  {
+    "vehicleNum": "080629",
+    "vehicleCd": "447",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080639",
+    "vehicleCd": "132",
+    "vehicleCorpCd": "2",
+    "running": true
+  },
+  {
+    "vehicleNum": "080644",
+    "vehicleCd": "452",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080651",
+    "vehicleCd": "455",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080652",
     "vehicleCd": "456",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.538778,
-    "lon": 135.535778,
-    "route": "北野田駅前→多治井北（循環）→北野田駅前",
-    "stop": "東区役所前",
-    "passTime": "06:18",
-    "vehicleType": "南海バス",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
   },
   {
     "vehicleNum": "080676",
     "vehicleCd": "158",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.548,
-    "lon": 135.542,
-    "route": "美原区役所→初芝駅前→美原区役所",
-    "stop": "菩提",
-    "passTime": "06:19",
-    "vehicleType": "南海バス",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
+  },
+  {
+    "vehicleNum": "080703",
+    "vehicleCd": "219",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080704",
+    "vehicleCd": "541",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080705",
     "vehicleCd": "542",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.574778,
-    "lon": 135.480278,
-    "route": "堺駅南口→堺駅前",
-    "stop": "栄泰橋",
-    "passTime": "06:16",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
   },
   {
     "vehicleNum": "080707",
     "vehicleCd": "544",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.595389,
-    "lon": 135.458278,
-    "route": "堺駅西口→錦綾町→堺東駅前",
-    "stop": "八幡町",
-    "passTime": "06:19",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
+  },
+  {
+    "vehicleNum": "080744",
+    "vehicleCd": "550",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080745",
     "vehicleCd": "57",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.496083,
-    "lon": 135.564278,
-    "route": "金剛駅前→向陽・藤沢回り→金剛駅前",
-    "stop": "久野喜台二丁目",
-    "passTime": "06:19",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
+  },
+  {
+    "vehicleNum": "080765",
+    "vehicleCd": "564",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080766",
+    "vehicleCd": "565",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080767",
+    "vehicleCd": "566",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080787",
     "vehicleCd": "301",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.545194,
-    "lon": 135.463389,
-    "route": "堺東駅前→塩穴通→鳳駅前",
-    "stop": "下田",
-    "passTime": "06:19",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
+  },
+  {
+    "vehicleNum": "080794",
+    "vehicleCd": "344",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080796",
     "vehicleCd": "108",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.572389,
-    "lon": 135.483,
-    "route": "堺駅前→堺東駅前→河内松原駅前",
-    "stop": "一条通",
-    "passTime": "06:18",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
+  },
+  {
+    "vehicleNum": "080799",
+    "vehicleCd": "339",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080808",
+    "vehicleCd": "216",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080809",
+    "vehicleCd": "215",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080813",
+    "vehicleCd": "269",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080814",
     "vehicleCd": "193",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.488,
-    "lon": 135.522778,
-    "route": "泉ヶ丘駅→晴美台右回り→泉ヶ丘駅",
-    "stop": "茶山台南口",
-    "passTime": "06:19",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
-  },
-  {
-    "vehicleNum": "080822",
-    "vehicleCd": "576",
-    "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.500972,
-    "lon": 135.507194,
-    "route": "泉ヶ丘駅→宮山台中学校前→堺東駅前",
-    "stop": "野田尾",
-    "passTime": "06:19",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
-  },
-  {
-    "vehicleNum": "080826",
-    "vehicleCd": "152",
-    "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.551083,
-    "lon": 135.517,
-    "route": "平尾→初芝駅前→中もず駅前",
-    "stop": "金田新田",
-    "passTime": "06:19",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
   },
   {
     "vehicleNum": "080815",
     "vehicleCd": "575",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.498583,
-    "lon": 135.535389,
-    "route": "泉ヶ丘駅→スマ・エコタウン晴美台→高倉台右回り→泉ヶ丘駅",
-    "stop": "堺東高校前",
-    "passTime": "06:18",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
   },
   {
     "vehicleNum": "080816",
     "vehicleCd": "78",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.485194,
-    "lon": 135.530389,
-    "route": "泉ヶ丘駅→槙塚台右回り→泉ヶ丘駅",
-    "stop": "槙塚台３丁",
-    "passTime": "06:19",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
+  },
+  {
+    "vehicleNum": "080822",
+    "vehicleCd": "576",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080826",
+    "vehicleCd": "152",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080836",
+    "vehicleCd": "268",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080846",
+    "vehicleCd": "224",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080856",
+    "vehicleCd": "358",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080864",
+    "vehicleCd": "146",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080866",
+    "vehicleCd": "497",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080873",
+    "vehicleCd": "144",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080882",
+    "vehicleCd": "343",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080884",
     "vehicleCd": "116",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.502278,
-    "lon": 135.491389,
-    "route": "泉ヶ丘駅→泉北２号線→津久野駅前",
-    "stop": "宮山台小学校前",
-    "passTime": "06:18",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
   },
   {
-    "vehicleNum": "080920",
-    "vehicleCd": "327",
+    "vehicleNum": "080905",
+    "vehicleCd": "353",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.494694,
-    "lon": 135.506,
-    "route": "泉ヶ丘駅→竹城台右回り→泉ヶ丘駅",
-    "stop": "竹城台３丁",
-    "passTime": "06:19",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
   },
   {
     "vehicleNum": "080911",
     "vehicleCd": "240",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.5855,
-    "lon": 135.487194,
-    "route": "堺東駅前→錦綾町→河内天美駅前",
-    "stop": "錦綾町",
-    "passTime": "06:19",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
   },
   {
-    "vehicleNum": "080935",
-    "vehicleCd": "593",
+    "vehicleNum": "080913",
+    "vehicleCd": "128",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.593194,
-    "lon": 135.452889,
-    "route": "阪和堺市駅前→堺東駅前→堺駅西口→匠町→海浜匠町",
-    "stop": "塩浜町",
-    "passTime": "06:17",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
+  },
+  {
+    "vehicleNum": "080917",
+    "vehicleCd": "70",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080927",
+    "vehicleCd": "79",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080928",
+    "vehicleCd": "348",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080934",
     "vehicleCd": "594",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.5595,
-    "lon": 135.471889,
-    "route": "堺駅前→堺駅南口",
-    "stop": "協和町",
-    "passTime": "06:18",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
+  },
+  {
+    "vehicleNum": "080935",
+    "vehicleCd": "593",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080936",
     "vehicleCd": "22",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.470389,
-    "lon": 135.494083,
-    "route": "御池台２丁→庭代台１丁→栂・美木多駅",
-    "stop": "庭代台１丁",
-    "passTime": "06:19",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
+  },
+  {
+    "vehicleNum": "080937",
+    "vehicleCd": "595",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080951",
     "vehicleCd": "597",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.475389,
-    "lon": 135.501389,
-    "route": "栂・美木多駅→庭代台右回り→栂・美木多駅",
-    "stop": "庭代台小学校前",
-    "passTime": "06:19",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
+  },
+  {
+    "vehicleNum": "080968",
+    "vehicleCd": "424",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080989",
+    "vehicleCd": "259",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080996",
     "vehicleCd": "191",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.521778,
-    "lon": 135.506778,
-    "route": "深井駅→田園→あみだ池",
-    "stop": "東山",
-    "passTime": "06:19",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
-  },
-  {
-    "vehicleNum": "081001",
-    "vehicleCd": "238",
-    "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.562083,
-    "lon": 135.4745,
-    "route": "泉ヶ丘駅→宮山台中学校前→堺東駅前",
-    "stop": "旭ヶ丘北町",
-    "passTime": "06:19",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
   },
   {
     "vehicleNum": "080999",
     "vehicleCd": "493",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.554694,
-    "lon": 135.500694,
-    "route": "中もず駅前→北野田駅前",
-    "stop": "中もず駅前（南側）",
-    "passTime": "06:17",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
-  },
-  {
-    "vehicleNum": "081005",
-    "vehicleCd": "272",
-    "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.527778,
-    "lon": 135.476083,
-    "route": "津久野駅前→鈴の宮団地センター→深井駅",
-    "stop": "八田荘西小学校前",
-    "passTime": "06:19",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
   },
   {
     "vehicleNum": "081004",
     "vehicleCd": "271",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.552389,
-    "lon": 135.503583,
-    "route": "北野田駅前→福町→堺駅南口",
-    "stop": "府立大学前",
-    "passTime": "06:18",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
+  },
+  {
+    "vehicleNum": "081005",
+    "vehicleCd": "272",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "081006",
+    "vehicleCd": "54",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "081007",
     "vehicleCd": "127",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.561083,
-    "lon": 135.484194,
-    "route": "あみだ池→深井駅→もず駅前→堺東駅前",
-    "stop": "堺市博物館前",
-    "passTime": "06:19",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
-  },
-  {
-    "vehicleNum": "081020",
-    "vehicleCd": "163",
-    "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.521278,
-    "lon": 135.508889,
-    "route": "東山車庫前→北野田駅前",
-    "stop": "東山車庫前",
-    "passTime": "06:19",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
   },
   {
     "vehicleNum": "081013",
     "vehicleCd": "554",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.539472,
-    "lon": 135.538972,
-    "route": "初芝駅前→平尾→初芝駅前",
-    "stop": "原寺",
-    "passTime": "06:19",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
   },
   {
-    "vehicleNum": "081021",
-    "vehicleCd": "243",
+    "vehicleNum": "081020",
+    "vehicleCd": "163",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.554389,
-    "lon": 135.500472,
-    "route": "伏尾→北条→中もず駅前",
-    "stop": "もず八幡前",
-    "passTime": "06:16",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
+  },
+  {
+    "vehicleNum": "081024",
+    "vehicleCd": "270",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "081035",
+    "vehicleCd": "491",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "081043",
+    "vehicleCd": "612",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "081055",
+    "vehicleCd": "616",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "090052",
+    "vehicleCd": "422",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "090103",
+    "vehicleCd": "49",
+    "vehicleCorpCd": "2",
+    "running": true
+  },
+  {
+    "vehicleNum": "090791",
+    "vehicleCd": "35",
+    "vehicleCorpCd": "2",
+    "running": true
+  },
+  {
+    "vehicleNum": "091295",
+    "vehicleCd": "510",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "091384",
+    "vehicleCd": "149",
+    "vehicleCorpCd": "2",
+    "running": true
+  },
+  {
+    "vehicleNum": "091596",
+    "vehicleCd": "200",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "091601",
     "vehicleCd": "202",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.438,
-    "lon": 135.232694,
-    "route": "エアロプラザ→第２ターミナル(国内線・国際線)→エアロプラザ",
-    "stop": "第2ターミナル国内線",
-    "passTime": "06:18",
-    "vehicleType": "南海バス(車椅子・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
+  },
+  {
+    "vehicleNum": "091658",
+    "vehicleCd": "203",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "091659",
     "vehicleCd": "204",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.4345,
-    "lon": 135.233194,
-    "route": "ポートターミナル→第２ターミナル",
-    "stop": "旅客ターミナル",
-    "passTime": "06:14",
-    "vehicleType": "南海バス(車椅子・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
   },
   {
     "vehicleNum": "091660",
     "vehicleCd": "205",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.428694,
-    "lon": 135.229778,
-    "route": "空港駅→給油地区",
-    "stop": "機内食前",
-    "passTime": "06:19",
-    "vehicleType": "南海バス(車椅子・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
+  },
+  {
+    "vehicleNum": "091736",
+    "vehicleCd": "65",
+    "vehicleCorpCd": "2",
+    "running": true
+  },
+  {
+    "vehicleNum": "091792",
+    "vehicleCd": "59",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "091838",
+    "vehicleCd": "210",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "091895",
+    "vehicleCd": "4",
+    "vehicleCorpCd": "2",
+    "running": true
+  },
+  {
+    "vehicleNum": "091970",
+    "vehicleCd": "420",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092009",
+    "vehicleCd": "454",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092187",
+    "vehicleCd": "19",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092188",
+    "vehicleCd": "166",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "092204",
     "vehicleCd": "416",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.425889,
-    "lon": 135.578778,
-    "route": "美加の台駅前→美加の台西→美加の台駅前",
-    "stop": "美加の台駅前",
-    "passTime": "06:17",
-    "vehicleType": "南海バス",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
+  },
+  {
+    "vehicleNum": "092244",
+    "vehicleCd": "214",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "092344",
     "vehicleCd": "102",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.435,
-    "lon": 135.2395,
-    "route": "エアロプラザ→第２ターミナル(国内線・国際線)→エアロプラザ",
-    "stop": "エアロプラザ",
-    "passTime": "06:17",
-    "vehicleType": "南海バス",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
   },
   {
     "vehicleNum": "092372",
     "vehicleCd": "159",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.552083,
-    "lon": 135.465194,
-    "route": "光明池駅→山田→堺東駅前",
-    "stop": "神石橋",
-    "passTime": "06:19",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
   },
   {
-    "vehicleNum": "092383",
-    "vehicleCd": "44",
+    "vehicleNum": "092373",
+    "vehicleCd": "553",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.49,
-    "lon": 135.477583,
-    "route": "光明池駅→新檜尾台センター→光明池駅",
-    "stop": "赤坂台六丁",
-    "passTime": "06:18",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ワンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
   },
   {
     "vehicleNum": "092382",
     "vehicleCd": "556",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.468778,
-    "lon": 135.459778,
-    "route": "和泉青葉台→和泉中央駅→泉大津駅前",
-    "stop": "池田下",
-    "passTime": "06:19",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
+  },
+  {
+    "vehicleNum": "092383",
+    "vehicleCd": "44",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092384",
+    "vehicleCd": "558",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "092394",
     "vehicleCd": "42",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.436194,
-    "lon": 135.232694,
-    "route": "エアロプラザ→第２ターミナル(国内線・国際線)→エアロプラザ",
-    "stop": "エアロプラザ",
-    "passTime": "06:15",
-    "vehicleType": "南海バス(車椅子・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
   },
   {
     "vehicleNum": "092398",
     "vehicleCd": "41",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.436194,
-    "lon": 135.235778,
-    "route": "エアロプラザ→第２ターミナル(国内線・国際線)→エアロプラザ",
-    "stop": "第2ターミナル国際線",
-    "passTime": "06:18",
-    "vehicleType": "南海バス(車椅子・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
+  },
+  {
+    "vehicleNum": "092447",
+    "vehicleCd": "573",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092451",
+    "vehicleCd": "123",
+    "vehicleCorpCd": "2",
+    "running": true
+  },
+  {
+    "vehicleNum": "092452",
+    "vehicleCd": "124",
+    "vehicleCorpCd": "2",
+    "running": true
+  },
+  {
+    "vehicleNum": "092467",
+    "vehicleCd": "50",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "092470",
     "vehicleCd": "105",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.438889,
-    "lon": 135.584694,
-    "route": "小吹台→河内長野駅前",
-    "stop": "清見台東口",
-    "passTime": "06:19",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
+  },
+  {
+    "vehicleNum": "092498",
+    "vehicleCd": "8",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "092533",
     "vehicleCd": "288",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.525778,
-    "lon": 135.462083,
-    "route": "栂・美木多駅→鳳駅前→堺東駅前",
-    "stop": "上北",
-    "passTime": "06:19",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
+  },
+  {
+    "vehicleNum": "092534",
+    "vehicleCd": "265",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "092569",
     "vehicleCd": "266",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.473,
-    "lon": 135.477778,
-    "route": "みずき台２丁目西→光明池駅",
-    "stop": "東室堂",
-    "passTime": "06:18",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
   },
   {
     "vehicleNum": "092570",
     "vehicleCd": "577",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.444278,
-    "lon": 135.461889,
-    "route": "はつが野六丁目→和泉中央駅",
-    "stop": "はつが野三丁目",
-    "passTime": "06:19",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:19"
+    "running": true
+  },
+  {
+    "vehicleNum": "092572",
+    "vehicleCd": "313",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092577",
+    "vehicleCd": "578",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092578",
+    "vehicleCd": "147",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092579",
+    "vehicleCd": "579",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092580",
+    "vehicleCd": "377",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "092586",
     "vehicleCd": "580",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.446583,
-    "lon": 135.554194,
-    "route": "旭ヶ丘→水落→河内長野駅前",
-    "stop": "水落",
-    "passTime": "06:17",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:20"
+    "running": true
+  },
+  {
+    "vehicleNum": "092595",
+    "vehicleCd": "326",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "092620",
     "vehicleCd": "311",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.452083,
-    "lon": 135.567889,
-    "route": "長野車庫→河内長野駅前",
-    "stop": "錦町",
-    "passTime": "06:19",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:20"
+    "running": true
   },
   {
     "vehicleNum": "092648",
     "vehicleCd": "486",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.467,
-    "lon": 135.563583,
-    "route": "緑ヶ丘北町→千代田駅前",
-    "stop": "市民グランド前",
-    "passTime": "06:18",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:20"
+    "running": true
   },
   {
-    "vehicleNum": "092795",
-    "vehicleCd": "592",
+    "vehicleNum": "092712",
+    "vehicleCd": "309",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.492778,
-    "lon": 135.466583,
-    "route": "光明池駅→山田→堺東駅前",
-    "stop": "檜尾山北",
-    "passTime": "06:18",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:20"
+    "running": true
+  },
+  {
+    "vehicleNum": "092756",
+    "vehicleCd": "305",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092757",
+    "vehicleCd": "306",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092761",
+    "vehicleCd": "23",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "092762",
     "vehicleCd": "570",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.476278,
-    "lon": 135.487889,
-    "route": "国分峠東→栂・美木多駅→堺東駅前",
-    "stop": "美木多",
-    "passTime": "06:19",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:20"
+    "running": true
+  },
+  {
+    "vehicleNum": "092795",
+    "vehicleCd": "592",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092859",
+    "vehicleCd": "32",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "092901",
     "vehicleCd": "356",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.499472,
-    "lon": 135.4105,
-    "route": "和泉中央駅→寺田→泉大津駅前",
-    "stop": "旭町",
-    "passTime": "06:19",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:20"
+    "running": true
+  },
+  {
+    "vehicleNum": "092913",
+    "vehicleCd": "154",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092916",
+    "vehicleCd": "235",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "092917",
     "vehicleCd": "40",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.4,
-    "lon": 135.527194,
-    "route": "滝畑ダム→河内長野駅前",
-    "stop": "滝尻口",
-    "passTime": "06:16",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/22 06:20"
+    "running": true
+  },
+  {
+    "vehicleNum": "092918",
+    "vehicleCd": "114",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092937",
+    "vehicleCd": "73",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092948",
+    "vehicleCd": "606",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "093032",
     "vehicleCd": "231",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.435389,
-    "lon": 135.239278,
-    "route": "エアロプラザ→第２ターミナル(国内線・国際線)→エアロプラザ",
-    "stop": "第2ターミナル国際線",
-    "passTime": "06:15",
-    "vehicleType": "南海バス",
-    "updateTime": "2026/08/22 06:20"
+    "running": true
+  },
+  {
+    "vehicleNum": "093035",
+    "vehicleCd": "609",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "093071",
+    "vehicleCd": "274",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "070036",
+    "vehicleCd": "530",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "070083",
+    "vehicleCd": "194",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "070084",
+    "vehicleCd": "35",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "070100",
+    "vehicleCd": "548",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "070101",
+    "vehicleCd": "400",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "070102",
+    "vehicleCd": "401",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "070103",
+    "vehicleCd": "425",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "070105",
+    "vehicleCd": "403",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "070106",
+    "vehicleCd": "404",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "070109",
+    "vehicleCd": "407",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "070119",
+    "vehicleCd": "39",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "070189",
+    "vehicleCd": "67",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "070290",
+    "vehicleCd": "134",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "070793",
+    "vehicleCd": "144",
+    "vehicleCorpCd": "2",
+    "running": false
+  },
+  {
+    "vehicleNum": "070850",
+    "vehicleCd": "429",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "071117",
+    "vehicleCd": "251",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "071118",
+    "vehicleCd": "252",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "071119",
+    "vehicleCd": "195",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "071148",
+    "vehicleCd": "107",
+    "vehicleCorpCd": "2",
+    "running": false
+  },
+  {
+    "vehicleNum": "071151",
+    "vehicleCd": "60",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "071321",
+    "vehicleCd": "141",
+    "vehicleCorpCd": "2",
+    "running": false
+  },
+  {
+    "vehicleNum": "071322",
+    "vehicleCd": "142",
+    "vehicleCorpCd": "2",
+    "running": false
+  },
+  {
+    "vehicleNum": "071323",
+    "vehicleCd": "143",
+    "vehicleCorpCd": "2",
+    "running": false
+  },
+  {
+    "vehicleNum": "071602",
+    "vehicleCd": "109",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "071603",
+    "vehicleCd": "410",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "071605",
+    "vehicleCd": "412",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "071607",
+    "vehicleCd": "414",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "072501",
+    "vehicleCd": "598",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "072502",
+    "vehicleCd": "331",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080019",
+    "vehicleCd": "373",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080020",
+    "vehicleCd": "374",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080026",
+    "vehicleCd": "590",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080028",
+    "vehicleCd": "376",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080030",
+    "vehicleCd": "378",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080032",
+    "vehicleCd": "380",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080037",
+    "vehicleCd": "119",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080043",
+    "vehicleCd": "381",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080045",
+    "vehicleCd": "121",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080048",
+    "vehicleCd": "476",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080050",
+    "vehicleCd": "471",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080055",
+    "vehicleCd": "383",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080056",
+    "vehicleCd": "397",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080057",
+    "vehicleCd": "384",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080060",
+    "vehicleCd": "162",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080061",
+    "vehicleCd": "385",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080062",
+    "vehicleCd": "123",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080075",
+    "vehicleCd": "521",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080077",
+    "vehicleCd": "522",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080081",
+    "vehicleCd": "125",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080088",
+    "vehicleCd": "442",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080093",
+    "vehicleCd": "131",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080114",
+    "vehicleCd": "515",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080115",
+    "vehicleCd": "466",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080117",
+    "vehicleCd": "470",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080118",
+    "vehicleCd": "38",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080120",
+    "vehicleCd": "77",
+    "vehicleCorpCd": "2",
+    "running": false
+  },
+  {
+    "vehicleNum": "080128",
+    "vehicleCd": "137",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080130",
+    "vehicleCd": "139",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080131",
+    "vehicleCd": "140",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080132",
+    "vehicleCd": "141",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080136",
+    "vehicleCd": "221",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080137",
+    "vehicleCd": "459",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080140",
+    "vehicleCd": "46",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080145",
+    "vehicleCd": "20",
+    "vehicleCorpCd": "2",
+    "running": false
+  },
+  {
+    "vehicleNum": "080146",
+    "vehicleCd": "6",
+    "vehicleCorpCd": "2",
+    "running": false
+  },
+  {
+    "vehicleNum": "080159",
+    "vehicleCd": "145",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080171",
+    "vehicleCd": "40",
+    "vehicleCorpCd": "2",
+    "running": false
+  },
+  {
+    "vehicleNum": "080178",
+    "vehicleCd": "56",
+    "vehicleCorpCd": "2",
+    "running": false
+  },
+  {
+    "vehicleNum": "080179",
+    "vehicleCd": "66",
+    "vehicleCorpCd": "2",
+    "running": false
+  },
+  {
+    "vehicleNum": "080180",
+    "vehicleCd": "68",
+    "vehicleCorpCd": "2",
+    "running": false
+  },
+  {
+    "vehicleNum": "080183",
+    "vehicleCd": "62",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080184",
+    "vehicleCd": "34",
+    "vehicleCorpCd": "2",
+    "running": false
+  },
+  {
+    "vehicleNum": "080186",
+    "vehicleCd": "39",
+    "vehicleCorpCd": "2",
+    "running": false
+  },
+  {
+    "vehicleNum": "080187",
+    "vehicleCd": "66",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080190",
+    "vehicleCd": "389",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080191",
+    "vehicleCd": "68",
+    "vehicleCorpCd": "1",
+    "running": false
   }
 ]
