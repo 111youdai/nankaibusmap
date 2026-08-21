@@ -1,15 +1,62 @@
 [
   {
+    "vehicleNum": "090052",
+    "vehicleCd": "422",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
     "vehicleNum": "091601",
     "vehicleCd": "202",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.434778,
-    "lon": 135.239,
-    "route": "空港駅→ＦｅｄＥｘ→給油地区",
-    "stop": "空港駅",
-    "passTime": "03:12",
-    "vehicleType": "南海バス(車椅子・ノンステップ)",
-    "updateTime": "2026/08/22 03:14"
+    "running": true
+  },
+  {
+    "vehicleNum": "070036",
+    "vehicleCd": "530",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "070083",
+    "vehicleCd": "194",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "070084",
+    "vehicleCd": "35",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "070100",
+    "vehicleCd": "548",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "070101",
+    "vehicleCd": "400",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "070102",
+    "vehicleCd": "401",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "070103",
+    "vehicleCd": "425",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "070104",
+    "vehicleCd": "402",
+    "vehicleCorpCd": "1",
+    "running": false
   }
 ]
