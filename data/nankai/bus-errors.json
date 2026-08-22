@@ -1,8 +1,15 @@
 [
   {
-    "vehicleNum": "092977",
-    "vehicleCd": "608",
+    "vehicleNum": "071118",
+    "vehicleCd": "252",
     "vehicleCorpCd": "1",
+    "running": true,
+    "error": "timeout of 30000ms exceeded"
+  },
+  {
+    "vehicleNum": "080463",
+    "vehicleCd": "36",
+    "vehicleCorpCd": "2",
     "running": true,
     "error": "timeout of 30000ms exceeded"
   }
