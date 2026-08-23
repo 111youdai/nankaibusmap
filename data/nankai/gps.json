@@ -1,15 +1,28 @@
 [
   {
+    "vehicleNum": "091600",
+    "vehicleCd": "201",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "lat": 34.436,
+    "lon": 135.241778,
+    "route": "エアロプラザ→第２ターミナル(国内線・国際線)→エアロプラザ",
+    "stop": "エアロプラザ",
+    "passTime": "04:00",
+    "vehicleType": "南海バス(車椅子・ノンステップ)",
+    "updateTime": "2026/08/24 04:00"
+  },
+  {
     "vehicleNum": "091595",
     "vehicleCd": "199",
     "vehicleCorpCd": "1",
     "running": true,
-    "lat": 34.435,
-    "lon": 135.239694,
+    "lat": 34.428778,
+    "lon": 135.229778,
     "route": "空港駅→給油地区",
-    "stop": "空港駅",
-    "passTime": "03:56",
+    "stop": "機内食前",
+    "passTime": "04:00",
     "vehicleType": "南海バス(車椅子・ノンステップ)",
-    "updateTime": "2026/08/24 03:57"
+    "updateTime": "2026/08/24 04:00"
   }
 ]
