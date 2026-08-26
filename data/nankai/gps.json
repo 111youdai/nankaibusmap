@@ -1,28 +1,41 @@
 [
   {
-    "vehicleNum": "092372",
-    "vehicleCd": "159",
-    "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.473583,
-    "lon": 135.473778,
-    "route": "光明池駅→山田→堺東駅前",
-    "stop": "光明池駅",
-    "passTime": "05:15",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/27 05:16"
-  },
-  {
     "vehicleNum": "091595",
     "vehicleCd": "199",
     "vehicleCorpCd": "1",
     "running": true,
-    "lat": 34.430194,
-    "lon": 135.225389,
+    "lat": 34.422694,
+    "lon": 135.225194,
     "route": "空港駅→ＦｅｄＥｘ→給油地区",
-    "stop": "二期島国際貨物駐車場前",
-    "passTime": "05:16",
+    "stop": "浄化センター前",
+    "passTime": "05:18",
     "vehicleType": "南海バス(車椅子・ノンステップ)",
-    "updateTime": "2026/08/27 05:16"
+    "updateTime": "2026/08/27 05:19"
+  },
+  {
+    "vehicleNum": "092372",
+    "vehicleCd": "159",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "lat": 34.469083,
+    "lon": 135.469194,
+    "route": "光明池駅→山田→堺東駅前",
+    "stop": "変電所前",
+    "passTime": "05:19",
+    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
+    "updateTime": "2026/08/27 05:19"
+  },
+  {
+    "vehicleNum": "092581",
+    "vehicleCd": "375",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "lat": 34.459,
+    "lon": 135.479083,
+    "route": "光明池車庫→城山台５丁→光明池駅",
+    "stop": "光明池車庫",
+    "passTime": "05:19",
+    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
+    "updateTime": "2026/08/27 05:19"
   }
 ]
