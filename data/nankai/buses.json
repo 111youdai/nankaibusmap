@@ -354,12 +354,6 @@
     "running": true
   },
   {
-    "vehicleNum": "080734",
-    "vehicleCd": "415",
-    "vehicleCorpCd": "1",
-    "running": true
-  },
-  {
     "vehicleNum": "080740",
     "vehicleCd": "181",
     "vehicleCorpCd": "1",
@@ -662,12 +656,6 @@
   {
     "vehicleNum": "080870",
     "vehicleCd": "153",
-    "vehicleCorpCd": "1",
-    "running": true
-  },
-  {
-    "vehicleNum": "080873",
-    "vehicleCd": "144",
     "vehicleCorpCd": "1",
     "running": true
   },
@@ -1110,14 +1098,14 @@
     "running": true
   },
   {
-    "vehicleNum": "091659",
-    "vehicleCd": "204",
+    "vehicleNum": "091658",
+    "vehicleCd": "203",
     "vehicleCorpCd": "1",
     "running": true
   },
   {
-    "vehicleNum": "091660",
-    "vehicleCd": "205",
+    "vehicleNum": "091659",
+    "vehicleCd": "204",
     "vehicleCorpCd": "1",
     "running": true
   },
@@ -1197,6 +1185,12 @@
     "vehicleNum": "092188",
     "vehicleCd": "166",
     "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092190",
+    "vehicleCd": "7",
+    "vehicleCorpCd": "2",
     "running": true
   },
   {
@@ -1376,6 +1370,12 @@
   {
     "vehicleNum": "092758",
     "vehicleCd": "363",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092761",
+    "vehicleCd": "23",
     "vehicleCorpCd": "1",
     "running": true
   },
@@ -2100,6 +2100,12 @@
     "running": false
   },
   {
+    "vehicleNum": "080734",
+    "vehicleCd": "415",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
     "vehicleNum": "080735",
     "vehicleCd": "308",
     "vehicleCorpCd": "1",
@@ -2246,6 +2252,12 @@
   {
     "vehicleNum": "080869",
     "vehicleCd": "316",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080873",
+    "vehicleCd": "144",
     "vehicleCorpCd": "1",
     "running": false
   },
@@ -2760,8 +2772,8 @@
     "running": false
   },
   {
-    "vehicleNum": "091658",
-    "vehicleCd": "203",
+    "vehicleNum": "091660",
+    "vehicleCd": "205",
     "vehicleCorpCd": "1",
     "running": false
   },
