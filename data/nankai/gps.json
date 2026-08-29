@@ -10,45 +10,58 @@
     "stop": "青年会場前",
     "passTime": "09:30",
     "vehicleType": "南海ウイングバス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/29 23:41"
+    "updateTime": "2026/08/29 23:44"
   },
   {
     "vehicleNum": "080813",
     "vehicleCd": "269",
     "vehicleCorpCd": "1",
     "running": true,
-    "lat": 34.586278,
-    "lon": 135.470083,
+    "lat": 34.583389,
+    "lon": 135.467889,
     "route": "海浜匠町→匠町→堺駅西口→堺東駅前→阪和堺市駅前",
-    "stop": "三宝公園前",
-    "passTime": "23:39",
+    "stop": "堺駅西口",
+    "passTime": "23:43",
     "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/29 23:41"
+    "updateTime": "2026/08/29 23:44"
   },
   {
     "vehicleNum": "091600",
     "vehicleCd": "201",
     "vehicleCorpCd": "1",
     "running": true,
-    "lat": 34.431694,
-    "lon": 135.233583,
+    "lat": 34.436389,
+    "lon": 135.242889,
     "route": "エアロプラザ→第２ターミナル(国内線・国際線)→エアロプラザ",
     "stop": "第2ターミナル国際線",
     "passTime": "23:39",
     "vehicleType": "南海バス(車椅子・ノンステップ)",
-    "updateTime": "2026/08/29 23:41"
+    "updateTime": "2026/08/29 23:44"
   },
   {
     "vehicleNum": "091658",
     "vehicleCd": "203",
     "vehicleCorpCd": "1",
     "running": true,
-    "lat": 34.427694,
-    "lon": 135.229889,
+    "lat": 34.435083,
+    "lon": 135.238889,
     "route": "給油地区→空港駅",
-    "stop": "大阪国際郵便局前",
+    "stop": "機内食前",
     "passTime": "23:41",
     "vehicleType": "南海バス(車椅子・ノンステップ)",
-    "updateTime": "2026/08/29 23:41"
+    "updateTime": "2026/08/29 23:44"
+  },
+  {
+    "vehicleNum": "093035",
+    "vehicleCd": "609",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "lat": 34.436194,
+    "lon": 135.233389,
+    "route": "エアロプラザ→第２ターミナル(国内線・国際線)→エアロプラザ",
+    "stop": "エアロプラザ",
+    "passTime": "23:41",
+    "vehicleType": "南海バス",
+    "updateTime": "2026/08/29 23:44"
   }
 ]
