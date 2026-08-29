@@ -10,84 +10,71 @@
     "stop": "青年会場前",
     "passTime": "09:30",
     "vehicleType": "南海ウイングバス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/29 23:32"
+    "updateTime": "2026/08/29 23:35"
   },
   {
     "vehicleNum": "080813",
     "vehicleCd": "269",
     "vehicleCorpCd": "1",
     "running": true,
-    "lat": 34.594389,
-    "lon": 135.445278,
+    "lat": 34.595194,
+    "lon": 135.462583,
     "route": "海浜匠町→匠町→堺駅西口→堺東駅前→阪和堺市駅前",
-    "stop": "匠町",
-    "passTime": "23:30",
+    "stop": "塩浜町",
+    "passTime": "23:34",
     "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/08/29 23:32"
+    "updateTime": "2026/08/29 23:35"
   },
   {
     "vehicleNum": "091600",
     "vehicleCd": "201",
     "vehicleCorpCd": "1",
     "running": true,
-    "lat": 34.435889,
-    "lon": 135.241972,
+    "lat": 34.436278,
+    "lon": 135.234278,
     "route": "エアロプラザ→第２ターミナル(国内線・国際線)→エアロプラザ",
     "stop": "エアロプラザ",
     "passTime": "23:32",
     "vehicleType": "南海バス(車椅子・ノンステップ)",
-    "updateTime": "2026/08/29 23:32"
+    "updateTime": "2026/08/29 23:35"
   },
   {
     "vehicleNum": "091660",
     "vehicleCd": "205",
     "vehicleCorpCd": "1",
     "running": true,
-    "lat": 34.433778,
-    "lon": 135.241194,
+    "lat": 34.435694,
+    "lon": 135.241889,
     "route": "ポートターミナル→第２ターミナル",
     "stop": "旅客ターミナル",
     "passTime": "23:31",
     "vehicleType": "南海バス(車椅子・ノンステップ)",
-    "updateTime": "2026/08/29 23:32"
-  },
-  {
-    "vehicleNum": "091792",
-    "vehicleCd": "59",
-    "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.438694,
-    "lon": 135.246083,
-    "route": "給油地区→空港駅",
-    "stop": "機内食前",
-    "passTime": "23:28",
-    "vehicleType": "南海バス(車椅子・ノンステップ)",
-    "updateTime": "2026/08/29 23:32"
-  },
-  {
-    "vehicleNum": "093035",
-    "vehicleCd": "609",
-    "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.4345,
-    "lon": 135.238194,
-    "route": "エアロプラザ→第２ターミナル(国内線・国際線)→エアロプラザ",
-    "stop": "第2ターミナル国際線",
-    "passTime": "23:27",
-    "vehicleType": "南海バス",
-    "updateTime": "2026/08/29 23:32"
+    "updateTime": "2026/08/29 23:35"
   },
   {
     "vehicleNum": "093032",
     "vehicleCd": "231",
     "vehicleCorpCd": "1",
     "running": true,
-    "lat": 34.437694,
-    "lon": 135.233,
+    "lat": 34.433972,
+    "lon": 135.237278,
     "route": "エアロプラザ→第２ターミナル(国内線・国際線)→エアロプラザ",
     "stop": "第2ターミナル国際線",
     "passTime": "23:32",
     "vehicleType": "南海バス",
-    "updateTime": "2026/08/29 23:32"
+    "updateTime": "2026/08/29 23:35"
+  },
+  {
+    "vehicleNum": "093035",
+    "vehicleCd": "609",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "lat": 34.436278,
+    "lon": 135.241583,
+    "route": "エアロプラザ→第２ターミナル(国内線・国際線)→エアロプラザ",
+    "stop": "第2ターミナル国際線",
+    "passTime": "23:27",
+    "vehicleType": "南海バス",
+    "updateTime": "2026/08/29 23:35"
   }
 ]
