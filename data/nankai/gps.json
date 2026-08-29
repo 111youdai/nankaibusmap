@@ -1,41 +1,67 @@
 [
   {
+    "vehicleNum": "081008",
+    "vehicleCd": "47",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "lat": 34.521694,
+    "lon": 135.502778,
+    "route": "東山車庫前→小阪→堺東駅前",
+    "stop": "桝矢",
+    "passTime": "05:27",
+    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
+    "updateTime": "2026/08/30 05:27"
+  },
+  {
     "vehicleNum": "091660",
     "vehicleCd": "205",
     "vehicleCorpCd": "1",
     "running": true,
-    "lat": 34.430083,
-    "lon": 135.225389,
+    "lat": 34.430389,
+    "lon": 135.225278,
     "route": "給油地区→ＦｅｄＥｘ→空港駅",
     "stop": "二期島国際貨物駐車場前",
-    "passTime": "05:24",
+    "passTime": "05:27",
     "vehicleType": "南海バス(車椅子・ノンステップ)",
-    "updateTime": "2026/08/30 05:24"
+    "updateTime": "2026/08/30 05:27"
+  },
+  {
+    "vehicleNum": "091791",
+    "vehicleCd": "206",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "lat": 34.432472,
+    "lon": 135.232,
+    "route": "エアロプラザ→第２ターミナル(国内線・国際線)→エアロプラザ",
+    "stop": "エアロプラザ",
+    "passTime": "05:25",
+    "vehicleType": "南海バス(車椅子・ノンステップ)",
+    "updateTime": "2026/08/30 05:27"
   },
   {
     "vehicleNum": "092345",
     "vehicleCd": "160",
     "vehicleCorpCd": "1",
     "running": true,
-    "lat": 34.428694,
-    "lon": 135.229694,
+    "lat": 34.424972,
+    "lon": 135.229,
     "route": "空港駅→給油地区",
-    "stop": "機内食前",
-    "passTime": "05:24",
+    "stop": "第2代理店ビル前",
+    "passTime": "05:27",
     "vehicleType": "南海バス",
-    "updateTime": "2026/08/30 05:24"
+    "updateTime": "2026/08/30 05:27"
   },
   {
     "vehicleNum": "092398",
     "vehicleCd": "41",
     "vehicleCorpCd": "1",
     "running": true,
-    "lat": 34.437583,
-    "lon": 135.231194,
+    "lat": 34.436972,
+    "lon": 135.233583,
     "route": "エアロプラザ→第２ターミナル(国内線・国際線)→エアロプラザ",
-    "stop": "エアロプラザ",
-    "passTime": "05:20",
+    "stop": "第2ターミナル国際線",
+    "passTime": "05:27",
     "vehicleType": "南海バス(車椅子・ノンステップ)",
-    "updateTime": "2026/08/30 05:24"
+    "updateTime": "2026/08/30 05:27"
   }
 ]
