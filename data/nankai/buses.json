@@ -876,12 +876,6 @@
     "running": true
   },
   {
-    "vehicleNum": "091659",
-    "vehicleCd": "204",
-    "vehicleCorpCd": "1",
-    "running": true
-  },
-  {
     "vehicleNum": "091740",
     "vehicleCd": "105",
     "vehicleCorpCd": "2",
@@ -2744,6 +2738,12 @@
   {
     "vehicleNum": "091637",
     "vehicleCd": "574",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "091659",
+    "vehicleCd": "204",
     "vehicleCorpCd": "1",
     "running": false
   },
