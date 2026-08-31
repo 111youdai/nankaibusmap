@@ -1,15 +1,54 @@
 [
   {
+    "vehicleNum": "091792",
+    "vehicleCd": "59",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "lat": 34.424778,
+    "lon": 135.2255,
+    "route": "給油地区→ＦｅｄＥｘ→空港駅",
+    "stop": "浄化センター前",
+    "passTime": "05:22",
+    "vehicleType": "南海バス(車椅子・ノンステップ)",
+    "updateTime": "2026/09/01 05:22"
+  },
+  {
+    "vehicleNum": "092398",
+    "vehicleCd": "41",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "lat": 34.431278,
+    "lon": 135.233278,
+    "route": "エアロプラザ→第２ターミナル(国内線・国際線)→エアロプラザ",
+    "stop": "エアロプラザ",
+    "passTime": "05:20",
+    "vehicleType": "南海バス(車椅子・ノンステップ)",
+    "updateTime": "2026/09/01 05:22"
+  },
+  {
     "vehicleNum": "092372",
     "vehicleCd": "159",
     "vehicleCorpCd": "1",
     "running": true,
-    "lat": 34.468889,
-    "lon": 135.469778,
+    "lat": 34.481,
+    "lon": 135.467389,
     "route": "光明池駅→山田→堺東駅前",
-    "stop": "光明池駅",
-    "passTime": "05:15",
+    "stop": "下伏屋",
+    "passTime": "05:22",
     "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/01 05:19"
+    "updateTime": "2026/09/01 05:22"
+  },
+  {
+    "vehicleNum": "092936",
+    "vehicleCd": "322",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "lat": 34.432472,
+    "lon": 135.235194,
+    "route": "空港駅→給油地区",
+    "stop": "空港駅",
+    "passTime": "05:20",
+    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
+    "updateTime": "2026/09/01 05:22"
   }
 ]
