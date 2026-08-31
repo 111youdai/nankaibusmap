@@ -4,12 +4,25 @@
     "vehicleCd": "204",
     "vehicleCorpCd": "1",
     "running": true,
-    "lat": 34.426278,
-    "lon": 135.231278,
+    "lat": 34.430194,
+    "lon": 135.225278,
     "route": "空港駅→ＦｅｄＥｘ→給油地区",
-    "stop": "第1輸出ビル前",
-    "passTime": "24:25",
+    "stop": "二期島国際貨物駐車場前",
+    "passTime": "24:28",
     "vehicleType": "南海バス(車椅子・ノンステップ)",
-    "updateTime": "2026/09/01 00:28"
+    "updateTime": "2026/09/01 00:31"
+  },
+  {
+    "vehicleNum": "092153",
+    "vehicleCd": "529",
+    "vehicleCorpCd": "1",
+    "running": true,
+    "lat": 34.438083,
+    "lon": 135.231389,
+    "route": "第２ターミナル(国内線・国際線)→エアロプラザ",
+    "stop": "第2ターミナル国内線",
+    "passTime": "00:28",
+    "vehicleType": "南海バス",
+    "updateTime": "2026/09/01 00:31"
   }
 ]
