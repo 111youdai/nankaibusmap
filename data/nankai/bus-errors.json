@@ -1,16 +1,9 @@
 [
   {
-    "vehicleNum": "070102",
-    "vehicleCd": "401",
+    "vehicleNum": "090807",
+    "vehicleCd": "30",
     "vehicleCorpCd": "1",
     "running": true,
-    "error": "timeout of 30000ms exceeded"
-  },
-  {
-    "vehicleNum": "080483",
-    "vehicleCd": "157",
-    "vehicleCorpCd": "1",
-    "running": true,
-    "error": "timeout of 30000ms exceeded"
+    "error": "socket hang up"
   }
 ]
