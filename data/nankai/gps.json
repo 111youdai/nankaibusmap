@@ -1,1809 +1,2096 @@
 [
   {
-    "vehicleNum": "070100",
-    "vehicleCd": "548",
-    "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.496889,
-    "lon": 135.556778,
-    "route": "泉ヶ丘駅→狭山ニュータウンセンター→金剛駅前",
-    "stop": "半田",
-    "passTime": "13:51",
-    "vehicleType": "泉北コミュニティバス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
-  },
-  {
     "vehicleNum": "070103",
     "vehicleCd": "425",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.4955,
-    "lon": 135.517194,
-    "route": "金剛駅前→狭山ニュータウンセンター→泉ヶ丘駅",
-    "stop": "茶山台２丁",
-    "passTime": "13:49",
-    "vehicleType": "泉北コミュニティバス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
   },
   {
     "vehicleNum": "070104",
     "vehicleCd": "402",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.479194,
-    "lon": 135.548194,
-    "route": "泉ヶ丘駅→狭山ニュータウンセンター→金剛駅前",
-    "stop": "南中学校前",
-    "passTime": "13:51",
-    "vehicleType": "泉北コミュニティバス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
   },
   {
     "vehicleNum": "070106",
     "vehicleCd": "404",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.493389,
-    "lon": 135.518778,
-    "route": "泉ヶ丘駅→狭山ニュータウンセンター→金剛駅前",
-    "stop": "茶山台２丁",
-    "passTime": "13:51",
-    "vehicleType": "泉北コミュニティバス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
+  },
+  {
+    "vehicleNum": "070109",
+    "vehicleCd": "407",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "070189",
     "vehicleCd": "67",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.575278,
-    "lon": 135.522194,
-    "route": "河内松原駅前→阪和堺市駅前→堺駅前",
-    "stop": "南花田町",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ワンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
+  },
+  {
+    "vehicleNum": "070793",
+    "vehicleCd": "144",
+    "vehicleCorpCd": "2",
+    "running": true
+  },
+  {
+    "vehicleNum": "071148",
+    "vehicleCd": "107",
+    "vehicleCorpCd": "2",
+    "running": true
   },
   {
     "vehicleNum": "071283",
     "vehicleCd": "430",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.639278,
-    "lon": 135.434694,
-    "route": "堺東駅前→ＡＴＣ→海遊館→堺東駅前",
-    "stop": "海遊館",
-    "passTime": "13:44",
-    "vehicleType": "南海バス",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
+  },
+  {
+    "vehicleNum": "071321",
+    "vehicleCd": "141",
+    "vehicleCorpCd": "2",
+    "running": true
+  },
+  {
+    "vehicleNum": "071322",
+    "vehicleCd": "142",
+    "vehicleCorpCd": "2",
+    "running": true
+  },
+  {
+    "vehicleNum": "071323",
+    "vehicleCd": "143",
+    "vehicleCorpCd": "2",
+    "running": true
   },
   {
     "vehicleNum": "071601",
     "vehicleCd": "408",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.581778,
-    "lon": 135.469694,
-    "route": "堺駅前→大小路→堺東駅前",
-    "stop": "堺駅前",
-    "passTime": "13:51",
-    "vehicleType": "堺シャトル(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
   },
   {
     "vehicleNum": "071602",
     "vehicleCd": "109",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.574694,
-    "lon": 135.480694,
-    "route": "堺東駅前→大小路→堺駅前",
-    "stop": "堺市役所前",
-    "passTime": "13:50",
-    "vehicleType": "堺シャトル(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
   },
   {
-    "vehicleNum": "071603",
-    "vehicleCd": "410",
+    "vehicleNum": "071605",
+    "vehicleCd": "412",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.5745,
-    "lon": 135.482,
-    "route": "堺駅前→大小路→堺東駅前",
-    "stop": "熊野小学校前",
-    "passTime": "13:48",
-    "vehicleType": "堺シャトル(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
+  },
+  {
+    "vehicleNum": "071606",
+    "vehicleCd": "413",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "072502",
+    "vehicleCd": "331",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080026",
+    "vehicleCd": "590",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080048",
+    "vehicleCd": "476",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080050",
+    "vehicleCd": "471",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080105",
     "vehicleCd": "127",
     "vehicleCorpCd": "2",
-    "running": true,
-    "lat": 34.448278,
-    "lon": 135.384389,
-    "route": "岸和田駅前→天神山・一の宮循環　右回り→岸和田駅前",
-    "stop": "岸和田警察署前",
-    "passTime": "13:47",
-    "vehicleType": "南海ウイングバス(車椅子・ベビーカー・ワンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
+  },
+  {
+    "vehicleNum": "080114",
+    "vehicleCd": "515",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080117",
+    "vehicleCd": "470",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080134",
+    "vehicleCd": "118",
+    "vehicleCorpCd": "2",
+    "running": true
   },
   {
     "vehicleNum": "080177",
     "vehicleCd": "126",
     "vehicleCorpCd": "2",
-    "running": true,
-    "lat": 34.405583,
-    "lon": 135.3415,
-    "route": "泉佐野駅前→泉陽ヶ丘→熊取駅前→山の手台→小谷→熊取駅前→泉陽ヶ丘→泉佐野駅前",
-    "stop": "熊取駅前",
-    "passTime": "13:50",
-    "vehicleType": "南海ウイングバス(車椅子・ベビーカー・ワンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
   },
   {
     "vehicleNum": "080178",
     "vehicleCd": "56",
     "vehicleCorpCd": "2",
-    "running": true,
-    "lat": 34.458889,
-    "lon": 135.436583,
-    "route": "和泉中央駅→徳洲会病院→岸和田駅前",
-    "stop": "東山公園下",
-    "passTime": "13:51",
-    "vehicleType": "南海ウイングバス(車椅子・ベビーカー・ワンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
+  },
+  {
+    "vehicleNum": "080179",
+    "vehicleCd": "66",
+    "vehicleCorpCd": "2",
+    "running": true
+  },
+  {
+    "vehicleNum": "080180",
+    "vehicleCd": "68",
+    "vehicleCorpCd": "2",
+    "running": true
+  },
+  {
+    "vehicleNum": "080184",
+    "vehicleCd": "34",
+    "vehicleCorpCd": "2",
+    "running": true
   },
   {
     "vehicleNum": "080187",
     "vehicleCd": "66",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.564583,
-    "lon": 135.516278,
-    "route": "阪和堺市駅前→労災病院前→近畿中央呼吸器センター前→堺駅南口",
-    "stop": "しもつ池",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
+  },
+  {
+    "vehicleNum": "080191",
+    "vehicleCd": "68",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080238",
+    "vehicleCd": "538",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080291",
+    "vehicleCd": "134",
+    "vehicleCorpCd": "2",
+    "running": true
+  },
+  {
+    "vehicleNum": "080315",
+    "vehicleCd": "80",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080321",
+    "vehicleCd": "14",
+    "vehicleCorpCd": "2",
+    "running": true
+  },
+  {
+    "vehicleNum": "080323",
+    "vehicleCd": "59",
+    "vehicleCorpCd": "2",
+    "running": true
   },
   {
     "vehicleNum": "080340",
     "vehicleCd": "131",
     "vehicleCorpCd": "2",
-    "running": true,
-    "lat": 34.389389,
-    "lon": 135.354083,
-    "route": "大阪体育大学前→熊取駅前",
-    "stop": "熊取団地",
-    "passTime": "13:51",
-    "vehicleType": "南海ウイングバス(車椅子・ベビーカー・ワンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
   },
   {
     "vehicleNum": "080345",
     "vehicleCd": "121",
     "vehicleCorpCd": "2",
-    "running": true,
-    "lat": 34.407583,
-    "lon": 135.322083,
-    "route": "泉佐野駅前→上瓦屋町→熊取駅前→熊取ニュータウン（フリー乗降）",
-    "stop": "上町１丁目",
-    "passTime": "13:49",
-    "vehicleType": "南海ウイングバス",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
+  },
+  {
+    "vehicleNum": "080381",
+    "vehicleCd": "88",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080382",
+    "vehicleCd": "89",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080384",
+    "vehicleCd": "444",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080388",
+    "vehicleCd": "52",
+    "vehicleCorpCd": "2",
+    "running": true
+  },
+  {
+    "vehicleNum": "080406",
+    "vehicleCd": "506",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080463",
+    "vehicleCd": "36",
+    "vehicleCorpCd": "2",
+    "running": true
   },
   {
     "vehicleNum": "080471",
     "vehicleCd": "92",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.436972,
-    "lon": 135.243889,
-    "route": "エアロプラザ→第２ターミナル(国内線・国際線)→エアロプラザ",
-    "stop": "第2ターミナル国際線",
-    "passTime": "13:44",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
-  },
-  {
-    "vehicleNum": "080594",
-    "vehicleCd": "437",
-    "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.529889,
-    "lon": 135.536389,
-    "route": "北野田駅前→多治井北（循環）→北野田駅前",
-    "stop": "高松",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
   },
   {
     "vehicleNum": "080482",
     "vehicleCd": "156",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.545083,
-    "lon": 135.489694,
-    "route": "中もず駅前→北条→堺市立総合医療センター前",
-    "stop": "もず陵南町西",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
+  },
+  {
+    "vehicleNum": "080483",
+    "vehicleCd": "157",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080594",
+    "vehicleCd": "437",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080628",
+    "vehicleCd": "445",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080639",
     "vehicleCd": "132",
     "vehicleCorpCd": "2",
-    "running": true,
-    "lat": 34.409972,
-    "lon": 135.320278,
-    "route": "つばさが丘北口→大阪体育大学前→熊取駅前→ダンバラ公園前→泉佐野駅前",
-    "stop": "上町１丁目",
-    "passTime": "13:49",
-    "vehicleType": "南海ウイングバス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
   },
   {
-    "vehicleNum": "080644",
-    "vehicleCd": "452",
+    "vehicleNum": "080641",
+    "vehicleCd": "421",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.596278,
-    "lon": 135.440278,
-    "route": "海浜匠町→匠町→堺駅西口→堺東駅前→阪和堺市駅前",
-    "stop": "海浜匠町",
-    "passTime": "13:45",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
-  },
-  {
-    "vehicleNum": "080652",
-    "vehicleCd": "456",
-    "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.544194,
-    "lon": 135.556194,
-    "route": "地下鉄新金岡駅前→野遠→美原区役所",
-    "stop": "下黒山西",
-    "passTime": "13:49",
-    "vehicleType": "南海バス",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
   },
   {
     "vehicleNum": "080643",
     "vehicleCd": "94",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.494194,
-    "lon": 135.505778,
-    "route": "泉ヶ丘駅→光明池駅→赤坂台４丁→光明池駅→泉ヶ丘駅",
-    "stop": "光明池駅",
-    "passTime": "13:43",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
+  },
+  {
+    "vehicleNum": "080644",
+    "vehicleCd": "452",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080652",
+    "vehicleCd": "456",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080653",
+    "vehicleCd": "458",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080670",
+    "vehicleCd": "507",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080671",
     "vehicleCd": "465",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.567778,
-    "lon": 135.470694,
-    "route": "堺駅南口→堺駅前",
-    "stop": "大仙西町団地前",
-    "passTime": "13:50",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
+  },
+  {
+    "vehicleNum": "080676",
+    "vehicleCd": "158",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080697",
+    "vehicleCd": "461",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080703",
     "vehicleCd": "219",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.569278,
-    "lon": 135.466278,
-    "route": "堺駅前→堺駅南口",
-    "stop": "山ノ口橋",
-    "passTime": "13:50",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
+  },
+  {
+    "vehicleNum": "080704",
+    "vehicleCd": "541",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080705",
+    "vehicleCd": "542",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080707",
     "vehicleCd": "544",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.577083,
-    "lon": 135.497889,
-    "route": "堺駅前→堺東駅前→河内松原駅前",
-    "stop": "阪和堺市駅前",
-    "passTime": "13:49",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
   },
   {
     "vehicleNum": "080709",
     "vehicleCd": "5",
     "vehicleCorpCd": "2",
-    "running": true,
-    "lat": 34.348,
-    "lon": 135.375694,
-    "route": "犬鳴山→泉佐野駅前",
-    "stop": "一土庄橋",
-    "passTime": "13:50",
-    "vehicleType": "南海ウイングバス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
   },
   {
     "vehicleNum": "080710",
     "vehicleCd": "18",
     "vehicleCorpCd": "2",
-    "running": true,
-    "lat": 34.404083,
-    "lon": 135.345278,
-    "route": "熊取ニュータウン→熊取駅前→上瓦屋町→泉佐野駅前（フリー乗降）",
-    "stop": "熊取駅前",
-    "passTime": "13:49",
-    "vehicleType": "南海ウイングバス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
+  },
+  {
+    "vehicleNum": "080711",
+    "vehicleCd": "79",
+    "vehicleCorpCd": "2",
+    "running": true
   },
   {
     "vehicleNum": "080734",
     "vehicleCd": "415",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.549778,
-    "lon": 135.542,
-    "route": "美原区役所→初芝駅前→美原区役所",
-    "stop": "石原",
-    "passTime": "13:50",
-    "vehicleType": "南海バス",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
+  },
+  {
+    "vehicleNum": "080735",
+    "vehicleCd": "308",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080744",
     "vehicleCd": "550",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.527278,
-    "lon": 135.488472,
-    "route": "泉ヶ丘駅→八田荘団地→堺市立総合医療センター前→津久野駅前",
-    "stop": "八田荘団地",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
-  },
-  {
-    "vehicleNum": "080747",
-    "vehicleCd": "161",
-    "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.555389,
-    "lon": 135.508889,
-    "route": "美原区役所前→船戸下→初芝駅前→中もず駅前",
-    "stop": "蟻ヶ池",
-    "passTime": "13:49",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
-  },
-  {
-    "vehicleNum": "080746",
-    "vehicleCd": "395",
-    "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.497194,
-    "lon": 135.569583,
-    "route": "金剛駅前→向陽・藤沢回り→金剛駅前",
-    "stop": "高辺台三丁目",
-    "passTime": "13:50",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
   },
   {
     "vehicleNum": "080745",
     "vehicleCd": "57",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.499278,
-    "lon": 135.561583,
-    "route": "金剛駅前→高辺台小学校前→金剛駅前",
-    "stop": "金剛駅前（東側）",
-    "passTime": "13:48",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
   },
   {
-    "vehicleNum": "080753",
-    "vehicleCd": "552",
+    "vehicleNum": "080746",
+    "vehicleCd": "395",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.485083,
-    "lon": 135.524889,
-    "route": "泉ヶ丘駅→晴美台右回り→泉ヶ丘駅",
-    "stop": "槙塚台１丁",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
+  },
+  {
+    "vehicleNum": "080747",
+    "vehicleCd": "161",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080750",
+    "vehicleCd": "103",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080751",
     "vehicleCd": "551",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.557694,
-    "lon": 135.505889,
-    "route": "中もず駅前→初芝駅前→船戸下→美原区役所前",
-    "stop": "中もず駅前（北側）",
-    "passTime": "13:50",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
+  },
+  {
+    "vehicleNum": "080753",
+    "vehicleCd": "552",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080754",
+    "vehicleCd": "428",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080756",
     "vehicleCd": "315",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.500778,
-    "lon": 135.541778,
-    "route": "金剛駅前→泉ヶ丘駅→近大キャンパス前→金剛駅前",
-    "stop": "金剛駅前（西側）",
-    "passTime": "13:45",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
   },
   {
-    "vehicleNum": "080761",
-    "vehicleCd": "560",
+    "vehicleNum": "080757",
+    "vehicleCd": "182",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.542778,
-    "lon": 135.526278,
-    "route": "中もず駅前→初芝駅前→船戸下→美原区役所前",
-    "stop": "初芝駅前",
-    "passTime": "13:48",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
   },
   {
-    "vehicleNum": "080762",
-    "vehicleCd": "561",
+    "vehicleNum": "080758",
+    "vehicleCd": "511",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.567583,
-    "lon": 135.492694,
-    "route": "堺東駅前→労災病院前→白鷺駅前（循環）",
-    "stop": "細池橋",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
   },
   {
     "vehicleNum": "080759",
     "vehicleCd": "58",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.574778,
-    "lon": 135.513778,
-    "route": "地下鉄北花田駅前→蔵前西→ＪＲ堺市駅前→地下鉄北花田駅前",
-    "stop": "公園北口",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
+  },
+  {
+    "vehicleNum": "080761",
+    "vehicleCd": "560",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080762",
+    "vehicleCd": "561",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080766",
+    "vehicleCd": "565",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080767",
     "vehicleCd": "566",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.522083,
-    "lon": 135.530194,
-    "route": "北野田駅前→福町→深井駅",
-    "stop": "伊勢道",
-    "passTime": "13:50",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
+  },
+  {
+    "vehicleNum": "080787",
+    "vehicleCd": "301",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080788",
     "vehicleCd": "299",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.569778,
-    "lon": 135.465583,
-    "route": "堺駅前→堺駅南口",
-    "stop": "御陵前",
-    "passTime": "13:50",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
+  },
+  {
+    "vehicleNum": "080790",
+    "vehicleCd": "106",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080791",
     "vehicleCd": "61",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.567583,
-    "lon": 135.493,
-    "route": "堺東駅前→労災病院前→白鷺駅前（循環）",
-    "stop": "細池橋",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
+  },
+  {
+    "vehicleNum": "080792",
+    "vehicleCd": "302",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080793",
+    "vehicleCd": "112",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080794",
     "vehicleCd": "344",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.585194,
-    "lon": 135.487083,
-    "route": "堺東駅前→錦綾町→堺駅西口",
-    "stop": "錦綾町",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
+  },
+  {
+    "vehicleNum": "080795",
+    "vehicleCd": "43",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080797",
+    "vehicleCd": "349",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080798",
+    "vehicleCd": "107",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080799",
+    "vehicleCd": "339",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080800",
     "vehicleCd": "304",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.550778,
-    "lon": 135.5135,
-    "route": "堺東駅前→労災病院前→白鷺駅前（循環）",
-    "stop": "中もず団地前",
-    "passTime": "13:50",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
   },
   {
-    "vehicleNum": "080816",
-    "vehicleCd": "78",
+    "vehicleNum": "080808",
+    "vehicleCd": "216",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.494778,
-    "lon": 135.510889,
-    "route": "泉ヶ丘駅→鉢ヶ峯→泉ヶ丘駅",
-    "stop": "茶山台",
-    "passTime": "13:50",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
+  },
+  {
+    "vehicleNum": "080814",
+    "vehicleCd": "193",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080815",
     "vehicleCd": "575",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.487694,
-    "lon": 135.513083,
-    "route": "泉ヶ丘駅→鉢ヶ峯→泉ヶ丘駅",
-    "stop": "若松台中学校前",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
+  },
+  {
+    "vehicleNum": "080816",
+    "vehicleCd": "78",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080827",
+    "vehicleCd": "317",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080835",
+    "vehicleCd": "310",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080836",
     "vehicleCd": "268",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.570278,
-    "lon": 135.502972,
-    "route": "堺駅南口→近畿中央呼吸器センター前→労災病院前→地下鉄新金岡駅前",
-    "stop": "近畿中央呼吸器センター前",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
   },
   {
     "vehicleNum": "080838",
     "vehicleCd": "129",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.589083,
-    "lon": 135.527389,
-    "route": "河内天美駅前→天美我堂→堺東駅前",
-    "stop": "天美西",
-    "passTime": "13:50",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
+  },
+  {
+    "vehicleNum": "080846",
+    "vehicleCd": "224",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080847",
+    "vehicleCd": "583",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080850",
     "vehicleCd": "24",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.497,
-    "lon": 135.508972,
-    "route": "泉ヶ丘駅→泉北２号線→堺市立総合医療センター前→津久野駅前",
-    "stop": "泉ヶ丘駅（北側）",
-    "passTime": "13:50",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
   },
   {
     "vehicleNum": "080851",
     "vehicleCd": "439",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.490194,
-    "lon": 135.563694,
-    "route": "金剛駅前→寺池台小学校前→金剛駅前",
-    "stop": "寺ヶ池",
-    "passTime": "13:50",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
   },
   {
-    "vehicleNum": "080856",
-    "vehicleCd": "358",
+    "vehicleNum": "080852",
+    "vehicleCd": "584",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.485,
-    "lon": 135.491389,
-    "route": "栂・美木多駅→御池台回り→栂・美木多駅",
-    "stop": "栂・美木多駅",
-    "passTime": "13:50",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ワンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
   },
   {
     "vehicleNum": "080854",
     "vehicleCd": "17",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.572889,
-    "lon": 135.476889,
-    "route": "堺駅前→堺東駅前→河内松原駅前",
-    "stop": "安井町",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
+  },
+  {
+    "vehicleNum": "080856",
+    "vehicleCd": "358",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080858",
     "vehicleCd": "225",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.576778,
-    "lon": 135.461278,
-    "route": "堺駅南口→堺駅前",
-    "stop": "大浜中町",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
+  },
+  {
+    "vehicleNum": "080859",
+    "vehicleCd": "227",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080863",
     "vehicleCd": "249",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.608889,
-    "lon": 135.478,
-    "route": "匠町→住之江公園駅前→匠町",
-    "stop": "松屋大和川通３丁",
-    "passTime": "13:43",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
+  },
+  {
+    "vehicleNum": "080864",
+    "vehicleCd": "146",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080865",
+    "vehicleCd": "504",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080867",
     "vehicleCd": "364",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.477583,
-    "lon": 135.54,
-    "route": "金剛駅前→狭山ニュータウンセンター→泉ヶ丘駅",
-    "stop": "南第二小学校前",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
+  },
+  {
+    "vehicleNum": "080868",
+    "vehicleCd": "237",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080870",
+    "vehicleCd": "153",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080873",
     "vehicleCd": "144",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.463778,
-    "lon": 135.501583,
-    "route": "泉ヶ丘駅→御池台回り→泉ヶ丘駅",
-    "stop": "御池台センター",
-    "passTime": "13:50",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
   },
   {
     "vehicleNum": "080874",
     "vehicleCd": "352",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.498694,
-    "lon": 135.556194,
-    "route": "金剛駅前→狭山ニュータウンセンター→泉ヶ丘駅",
-    "stop": "半田",
-    "passTime": "13:49",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:51"
+    "running": true
+  },
+  {
+    "vehicleNum": "080875",
+    "vehicleCd": "485",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080876",
+    "vehicleCd": "390",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080877",
+    "vehicleCd": "588",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080878",
+    "vehicleCd": "368",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080879",
     "vehicleCd": "359",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.527083,
-    "lon": 135.451278,
-    "route": "鳳西町南→浜寺中学校前→堺東駅前",
-    "stop": "鳳西町南",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "080882",
+    "vehicleCd": "343",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080894",
+    "vehicleCd": "350",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080895",
     "vehicleCd": "167",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.558389,
-    "lon": 135.5415,
-    "route": "美原区役所→野遠→地下鉄新金岡駅前",
-    "stop": "野遠",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "080898",
+    "vehicleCd": "501",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080903",
+    "vehicleCd": "354",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080904",
     "vehicleCd": "362",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.536472,
-    "lon": 135.463389,
-    "route": "堺市立総合医療センター前→鳳駅前→石津川駅前",
-    "stop": "鳳北口",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
-    "vehicleNum": "080913",
-    "vehicleCd": "128",
+    "vehicleNum": "080911",
+    "vehicleCd": "240",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.576,
-    "lon": 135.481,
-    "route": "河内松原駅前→阪和堺市駅前→堺東駅前",
-    "stop": "瓦町公園前",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
     "vehicleNum": "080912",
     "vehicleCd": "372",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.582889,
-    "lon": 135.514583,
-    "route": "堺東駅前→錦綾町→河内天美駅前",
-    "stop": "奥本町",
-    "passTime": "13:50",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "080913",
+    "vehicleCd": "128",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080917",
     "vehicleCd": "70",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.535889,
-    "lon": 135.476194,
-    "route": "津久野駅前→堺市立総合医療センター前→八田荘団地→泉ヶ丘駅",
-    "stop": "平岡町",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
-    "vehicleNum": "080935",
-    "vehicleCd": "593",
+    "vehicleNum": "080918",
+    "vehicleCd": "419",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.579583,
-    "lon": 135.466778,
-    "route": "地下鉄新金岡駅前→労災病院前→近畿中央呼吸器センター前→堺駅南口",
-    "stop": "川尻",
-    "passTime": "13:49",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "080927",
+    "vehicleCd": "79",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080928",
+    "vehicleCd": "348",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080934",
+    "vehicleCd": "594",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080936",
+    "vehicleCd": "22",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080937",
     "vehicleCd": "595",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.555778,
-    "lon": 135.5015,
-    "route": "堺駅南口→三国ヶ丘駅前→北野田駅前",
-    "stop": "中もず駅前（南側）",
-    "passTime": "13:50",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
-  },
-  {
-    "vehicleNum": "080951",
-    "vehicleCd": "597",
-    "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.493389,
-    "lon": 135.518778,
-    "route": "泉ヶ丘駅→晴美台右回り→泉ヶ丘駅",
-    "stop": "茶山台２丁",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
     "vehicleNum": "080948",
     "vehicleCd": "276",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.603583,
-    "lon": 135.472778,
-    "route": "堺東→住之江公園→堺東",
-    "stop": "住之江公園駅前",
-    "passTime": "13:47",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "080951",
+    "vehicleCd": "597",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080956",
+    "vehicleCd": "71",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080966",
     "vehicleCd": "387",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.548889,
-    "lon": 135.507583,
-    "route": "北野田駅前→西口園→堺駅南口",
-    "stop": "府大研究所前",
-    "passTime": "13:50",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "080967",
+    "vehicleCd": "605",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080968",
+    "vehicleCd": "424",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080977",
+    "vehicleCd": "388",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "080978",
     "vehicleCd": "431",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.5155,
-    "lon": 135.493,
-    "route": "泉ヶ丘駅→宮山台中学校前→堺東駅前",
-    "stop": "天の橋",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "080989",
+    "vehicleCd": "259",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080994",
+    "vehicleCd": "130",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080995",
+    "vehicleCd": "118",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "080999",
+    "vehicleCd": "493",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "081003",
     "vehicleCd": "610",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.561278,
-    "lon": 135.473778,
-    "route": "堺東駅前→上野芝→泉ヶ丘駅",
-    "stop": "旭ヶ丘北町",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "081004",
+    "vehicleCd": "271",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "081006",
+    "vehicleCd": "54",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "081007",
     "vehicleCd": "127",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.521389,
-    "lon": 135.4965,
-    "route": "堺東駅前→上野芝駅前→東山車庫前",
-    "stop": "久世小学校前",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
     "vehicleNum": "081008",
     "vehicleCd": "47",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.531389,
-    "lon": 135.497389,
-    "route": "深井駅→鈴の宮団地→堺市立総合医療センター前→津久野駅前",
-    "stop": "深井駅（西側）",
-    "passTime": "13:50",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "081013",
+    "vehicleCd": "554",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "081014",
+    "vehicleCd": "229",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "081015",
+    "vehicleCd": "136",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "081016",
     "vehicleCd": "239",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.494778,
-    "lon": 135.530083,
-    "route": "金剛駅前→帝塚山学院泉ヶ丘校前→泉ヶ丘駅前",
-    "stop": "晴美台１丁",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
     "vehicleNum": "081017",
     "vehicleCd": "135",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.499194,
-    "lon": 135.514389,
-    "route": "泉ヶ丘駅→三原台左回り→泉ヶ丘駅",
-    "stop": "泉ヶ丘駅（北側）",
-    "passTime": "13:50",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
     "vehicleNum": "081018",
     "vehicleCd": "263",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.562278,
-    "lon": 135.4745,
-    "route": "東山車庫前→小阪→堺東駅前",
-    "stop": "旭ヶ丘北町",
-    "passTime": "13:52",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "081020",
+    "vehicleCd": "163",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "081021",
     "vehicleCd": "243",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.539083,
-    "lon": 135.470694,
-    "route": "津久野駅前→鈴の宮団地センター→深井駅",
-    "stop": "堺市立総合医療センター前",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
     "vehicleNum": "081023",
     "vehicleCd": "264",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.539889,
-    "lon": 135.470694,
-    "route": "堺東駅前→堀上緑町１丁→堺東駅前",
-    "stop": "堺市立総合医療センター北",
-    "passTime": "13:50",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "081024",
+    "vehicleCd": "270",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "081034",
     "vehicleCd": "120",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.482972,
-    "lon": 135.490194,
-    "route": "泉ヶ丘駅→庭代台右回り→泉ヶ丘駅",
-    "stop": "栂・美木多駅",
-    "passTime": "13:50",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
     "vehicleNum": "081035",
     "vehicleCd": "491",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.494,
-    "lon": 135.531083,
-    "route": "泉ヶ丘駅→スマ・エコタウン晴美台→高倉台左回り→泉ヶ丘駅",
-    "stop": "高倉台４丁",
-    "passTime": "13:50",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
     "vehicleNum": "081036",
     "vehicleCd": "293",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.497389,
-    "lon": 135.501694,
-    "route": "津久野駅前→堺市立総合医療センター前→泉北２号線→泉ヶ丘駅",
-    "stop": "竹城台センター",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "081037",
+    "vehicleCd": "236",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "081038",
+    "vehicleCd": "126",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "081039",
+    "vehicleCd": "253",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "081040",
+    "vehicleCd": "248",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "081041",
+    "vehicleCd": "611",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "081045",
+    "vehicleCd": "188",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "081046",
+    "vehicleCd": "52",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "081054",
+    "vehicleCd": "324",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "081055",
     "vehicleCd": "616",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.478389,
-    "lon": 135.4955,
-    "route": "栂・美木多駅→原山台回り→栂・美木多駅",
-    "stop": "原山台センター",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
-  },
-  {
-    "vehicleNum": "081058",
-    "vehicleCd": "615",
-    "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.529583,
-    "lon": 135.500472,
-    "route": "深井駅→東山車庫前→北野田駅前",
-    "stop": "深井駅",
-    "passTime": "13:50",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
-  },
-  {
-    "vehicleNum": "081060",
-    "vehicleCd": "614",
-    "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.517389,
-    "lon": 135.510278,
-    "route": "泉ヶ丘駅→田園→深井駅",
-    "stop": "東中学校前（堺市）",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
-  },
-  {
-    "vehicleNum": "081059",
-    "vehicleCd": "382",
-    "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.542778,
-    "lon": 135.5265,
-    "route": "初芝駅前→平尾→初芝駅前",
-    "stop": "日置荘小学校前",
-    "passTime": "13:48",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
     "vehicleNum": "081056",
     "vehicleCd": "117",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.488389,
-    "lon": 135.5165,
-    "route": "泉ヶ丘駅→槙塚台左回り→泉ヶ丘駅",
-    "stop": "茶山台",
-    "passTime": "13:50",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "081058",
+    "vehicleCd": "615",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "081060",
+    "vehicleCd": "614",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "090035",
+    "vehicleCd": "242",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "090144",
     "vehicleCd": "82",
     "vehicleCorpCd": "2",
-    "running": true,
-    "lat": 34.468583,
-    "lon": 135.389694,
-    "route": "岸和田駅前→徳洲会病院→和泉中央駅",
-    "stop": "宮前町",
-    "passTime": "13:51",
-    "vehicleType": "南海ウイングバス(車椅子・ベビーカー・ワンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "090160",
+    "vehicleCd": "72",
+    "vehicleCorpCd": "2",
+    "running": true
   },
   {
     "vehicleNum": "090170",
     "vehicleCd": "117",
     "vehicleCorpCd": "2",
-    "running": true,
-    "lat": 34.4475,
-    "lon": 135.432389,
-    "route": "白原車庫→内畑→岸和田駅前",
-    "stop": "包近公園",
-    "passTime": "13:52",
-    "vehicleType": "南海ウイングバス",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
-    "vehicleNum": "090176",
-    "vehicleCd": "101",
+    "vehicleNum": "090175",
+    "vehicleCd": "102",
     "vehicleCorpCd": "2",
-    "running": true,
-    "lat": 34.386083,
-    "lon": 135.271194,
-    "route": "イオンモール→ワシントンホテル→イオンモールりんくう泉南",
-    "stop": "警察学校前",
-    "passTime": "13:48",
-    "vehicleType": "南海ウイングバス",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "090491",
+    "vehicleCd": "50",
+    "vehicleCorpCd": "2",
+    "running": true
+  },
+  {
+    "vehicleNum": "090766",
+    "vehicleCd": "137",
+    "vehicleCorpCd": "2",
+    "running": true
+  },
+  {
+    "vehicleNum": "090791",
+    "vehicleCd": "35",
+    "vehicleCorpCd": "2",
+    "running": true
+  },
+  {
+    "vehicleNum": "091069",
+    "vehicleCd": "245",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "091070",
+    "vehicleCd": "487",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "091076",
     "vehicleCd": "192",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.438083,
-    "lon": 135.232694,
-    "route": "第２ターミナル(国内線・国際線)→エアロプラザ",
-    "stop": "第2ターミナル国内線",
-    "passTime": "13:50",
-    "vehicleType": "南海バス(車椅子・ワンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
     "vehicleNum": "091146",
     "vehicleCd": "17",
     "vehicleCorpCd": "2",
-    "running": true,
-    "lat": 34.454,
-    "lon": 135.385194,
-    "route": "岸和田駅前→天神山・一の宮循環　左回り→岸和田駅前",
-    "stop": "東岸和田駅前",
-    "passTime": "13:47",
-    "vehicleType": "南海ウイングバス(車椅子・ベビーカー・ワンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
-    "vehicleNum": "091243",
-    "vehicleCd": "13",
+    "vehicleNum": "091147",
+    "vehicleCd": "255",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "091295",
+    "vehicleCd": "510",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "091358",
+    "vehicleCd": "432",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "091378",
+    "vehicleCd": "135",
     "vehicleCorpCd": "2",
-    "running": true,
-    "lat": 34.384389,
-    "lon": 135.373389,
-    "route": "泉佐野駅前→ダンバラ公園前→熊取駅前→大阪体育大学前→つばさが丘北口",
-    "stop": "つばさが丘中央",
-    "passTime": "13:51",
-    "vehicleType": "南海ウイングバス(車椅子・ワンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "091381",
+    "vehicleCd": "330",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "091428",
+    "vehicleCd": "517",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "091486",
+    "vehicleCd": "505",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "091581",
+    "vehicleCd": "198",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "091595",
+    "vehicleCd": "199",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "091600",
+    "vehicleCd": "201",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "091601",
     "vehicleCd": "202",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.442972,
-    "lon": 135.256583,
-    "route": "関空展望ホール→旅客ターミナル→関空展望ホール",
-    "stop": "関空展望ホール",
-    "passTime": "13:50",
-    "vehicleType": "南海バス(車椅子・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
-    "vehicleNum": "091738",
-    "vehicleCd": "12",
+    "vehicleNum": "091637",
+    "vehicleCd": "574",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "091659",
+    "vehicleCd": "204",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "091671",
+    "vehicleCd": "518",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "091736",
+    "vehicleCd": "65",
     "vehicleCorpCd": "2",
-    "running": true,
-    "lat": 34.429583,
-    "lon": 135.430083,
-    "route": "和泉中央駅→包近→道の駅愛彩ランド",
-    "stop": "蜻蛉池公園東",
-    "passTime": "13:51",
-    "vehicleType": "南海ウイングバス(車椅子・ワンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "091739",
+    "vehicleCd": "147",
+    "vehicleCorpCd": "2",
+    "running": true
   },
   {
     "vehicleNum": "091745",
     "vehicleCd": "103",
     "vehicleCorpCd": "2",
-    "running": true,
-    "lat": 34.4475,
-    "lon": 135.432389,
-    "route": "岸和田駅前→内畑→牛滝温泉",
-    "stop": "包近公園",
-    "passTime": "13:52",
-    "vehicleType": "南海ウイングバス",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "091747",
+    "vehicleCd": "333",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "091784",
     "vehicleCd": "119",
     "vehicleCorpCd": "2",
-    "running": true,
-    "lat": 34.3845,
-    "lon": 135.378194,
-    "route": "熊取町　自然公園方面循環コース",
-    "stop": "高田",
-    "passTime": "13:51",
-    "vehicleType": "熊取町コミュニティバス(ジャンプ君号)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
     "vehicleNum": "091785",
     "vehicleCd": "120",
     "vehicleCorpCd": "2",
-    "running": true,
-    "lat": 34.408278,
-    "lon": 135.364194,
-    "route": "熊取町　七山方面循環コース",
-    "stop": "七山東",
-    "passTime": "13:51",
-    "vehicleType": "熊取町コミュニティバス(メジーナちゃん号)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
     "vehicleNum": "091791",
     "vehicleCd": "206",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.428194,
-    "lon": 135.229389,
-    "route": "給油地区→空港駅",
-    "stop": "大阪国際郵便局前",
-    "passTime": "13:50",
-    "vehicleType": "南海バス(車椅子・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "091837",
+    "vehicleCd": "209",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "091850",
+    "vehicleCd": "211",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "091852",
+    "vehicleCd": "213",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "091893",
     "vehicleCd": "84",
     "vehicleCorpCd": "2",
-    "running": true,
-    "lat": 34.361083,
-    "lon": 135.282194,
-    "route": "泉南市コミュニティバス 砂川回り",
-    "stop": "府立支援学校前（正門）",
-    "passTime": "13:49",
-    "vehicleType": "南海ウイングバス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
     "vehicleNum": "091894",
     "vehicleCd": "3",
     "vehicleCorpCd": "2",
-    "running": true,
-    "lat": 34.362778,
-    "lon": 135.271389,
-    "route": "泉南市コミュニティバス 山回り",
-    "stop": "図書館・文化ホール前",
-    "passTime": "13:51",
-    "vehicleType": "泉南市コミュニティバス(紫)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
     "vehicleNum": "091895",
     "vehicleCd": "4",
     "vehicleCorpCd": "2",
-    "running": true,
-    "lat": 34.377583,
-    "lon": 135.260778,
-    "route": "泉南市コミュニティバス 南Ａ回り",
-    "stop": "男里浜",
-    "passTime": "13:48",
-    "vehicleType": "泉南市コミュニティバス(ピンク)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
-    "vehicleNum": "092153",
-    "vehicleCd": "529",
+    "vehicleNum": "091969",
+    "vehicleCd": "449",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.436083,
-    "lon": 135.232889,
-    "route": "エアロプラザ→第２ターミナル(国内線・国際線)→エアロプラザ",
-    "stop": "エアロプラザ",
-    "passTime": "13:48",
-    "vehicleType": "南海バス",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "091970",
+    "vehicleCd": "420",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092009",
+    "vehicleCd": "454",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "092045",
     "vehicleCd": "463",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.432694,
-    "lon": 135.569694,
-    "route": "ﾓｯｸﾙ 美加～木戸東町～美加",
-    "stop": "新町橋",
-    "passTime": "13:49",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "092046",
+    "vehicleCd": "464",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092153",
+    "vehicleCd": "529",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092187",
+    "vehicleCd": "19",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092190",
+    "vehicleCd": "7",
+    "vehicleCorpCd": "2",
+    "running": true
+  },
+  {
+    "vehicleNum": "092204",
+    "vehicleCd": "416",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "092205",
     "vehicleCd": "25",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.430194,
-    "lon": 135.577778,
-    "route": "美加の台駅前→美加の台口→美加の台駅前",
-    "stop": "上之山神社前",
-    "passTime": "13:52",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
     "vehicleNum": "092233",
     "vehicleCd": "533",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.519194,
-    "lon": 135.463,
-    "route": "堺東駅前→鳳駅前→光明池駅",
-    "stop": "石橋",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "092234",
+    "vehicleCd": "534",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092235",
+    "vehicleCd": "535",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092244",
+    "vehicleCd": "214",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092246",
+    "vehicleCd": "536",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "092345",
     "vehicleCd": "160",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.430083,
-    "lon": 135.2255,
-    "route": "空港駅→ＦｅｄＥｘ→給油地区",
-    "stop": "二期島国際貨物駐車場前",
-    "passTime": "13:52",
-    "vehicleType": "南海バス",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "092382",
+    "vehicleCd": "556",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "092384",
     "vehicleCd": "558",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.500194,
-    "lon": 135.4095,
-    "route": "泉大津駅前→和泉府中駅前→和泉中央駅",
-    "stop": "旭町",
-    "passTime": "13:52",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "092394",
+    "vehicleCd": "42",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092451",
+    "vehicleCd": "123",
+    "vehicleCorpCd": "2",
+    "running": true
   },
   {
     "vehicleNum": "092454",
     "vehicleCd": "125",
     "vehicleCorpCd": "2",
-    "running": true,
-    "lat": 34.377389,
-    "lon": 135.261194,
-    "route": "泉南市コミュニティバス 岡田Ｂ回り",
-    "stop": "泉南りんくう公園",
-    "passTime": "13:50",
-    "vehicleType": "泉南市コミュニティバス(橙)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
-    "vehicleNum": "092469",
-    "vehicleCd": "220",
+    "vehicleNum": "092467",
+    "vehicleCd": "50",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.419583,
-    "lon": 135.642389,
-    "route": "金剛山ﾛｰﾌﾟｳｪｲ前→日東町東口→河内長野駅前",
-    "stop": "金剛登山口（千早本道口）",
-    "passTime": "13:50",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
     "vehicleNum": "092468",
     "vehicleCd": "51",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.412,
-    "lon": 135.571083,
-    "route": "三日市町駅前→南青葉台→三日市町駅前",
-    "stop": "南青葉台",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "092469",
+    "vehicleCd": "220",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092483",
+    "vehicleCd": "110",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092498",
+    "vehicleCd": "8",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "092533",
     "vehicleCd": "288",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.481583,
-    "lon": 135.480694,
-    "route": "光明池駅→新檜尾台センター→光明池駅",
-    "stop": "新檜尾台一丁",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "092534",
+    "vehicleCd": "265",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "092561",
     "vehicleCd": "74",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.497278,
-    "lon": 135.582694,
-    "route": "PL病院→金剛駅前（東側）→津々山台2丁目→PL病院",
-    "stop": "小金台２丁目",
-    "passTime": "13:52",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "092569",
+    "vehicleCd": "266",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092570",
+    "vehicleCd": "577",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "092571",
     "vehicleCd": "314",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.458583,
-    "lon": 135.559694,
-    "route": "緑ヶ丘北町→千代田駅前",
-    "stop": "千代田台",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
     "vehicleNum": "092572",
     "vehicleCd": "313",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.503,
-    "lon": 135.449889,
-    "route": "北信太駅筋→鶴山台団地→北信太駅筋",
-    "stop": "鶴山台センター",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
     "vehicleNum": "092577",
     "vehicleCd": "578",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.437194,
-    "lon": 135.5735,
-    "route": "三日市町駅前→清見台回り→三日市町駅前",
-    "stop": "三日市町駅前通",
-    "passTime": "13:52",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "092578",
+    "vehicleCd": "147",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "092579",
     "vehicleCd": "579",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.468083,
-    "lon": 135.565472,
-    "route": "千代→緑→小山田→千代",
-    "stop": "千代田駅前",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "092580",
+    "vehicleCd": "377",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "092581",
     "vehicleCd": "375",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.554889,
-    "lon": 135.468278,
-    "route": "栂・美木多駅→鳳駅前→堺東駅前",
-    "stop": "霞ヶ丘",
-    "passTime": "13:50",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "092586",
+    "vehicleCd": "580",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092587",
+    "vehicleCd": "124",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "092620",
     "vehicleCd": "311",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.467389,
-    "lon": 135.564278,
-    "route": "貴望ヶ丘→千代田駅前",
-    "stop": "南海西友前",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "092647",
+    "vehicleCd": "587",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092648",
+    "vehicleCd": "486",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092653",
+    "vehicleCd": "357",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "092696",
     "vehicleCd": "589",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.538083,
-    "lon": 135.463389,
-    "route": "堺東駅前→鳳駅前→国分峠東",
-    "stop": "鳳北口",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "092734",
+    "vehicleCd": "289",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092756",
+    "vehicleCd": "305",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "092757",
     "vehicleCd": "306",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.415194,
-    "lon": 135.560194,
-    "route": "三日市町駅前→南花台１丁目北→南ヶ丘",
-    "stop": "大矢船南町",
-    "passTime": "13:52",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "092758",
+    "vehicleCd": "363",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092761",
+    "vehicleCd": "23",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092762",
+    "vehicleCd": "570",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "092763",
     "vehicleCd": "520",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.466389,
-    "lon": 135.484778,
-    "route": "光明池駅→城山台５丁→みずき台２丁目西",
-    "stop": "城山台五丁",
-    "passTime": "13:52",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
     "vehicleNum": "092795",
     "vehicleCd": "592",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.564389,
-    "lon": 135.476472,
-    "route": "堺東駅前→鳳駅前→光明池駅",
-    "stop": "賑町",
-    "passTime": "13:50",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "092829",
+    "vehicleCd": "488",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "092830",
     "vehicleCd": "367",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.474389,
-    "lon": 135.476,
-    "route": "泉ヶ丘駅→光明池駅→城山台２丁→光明池駅→泉ヶ丘駅",
-    "stop": "泉ヶ丘駅（北側）",
-    "passTime": "13:39",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "092831",
+    "vehicleCd": "417",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092857",
+    "vehicleCd": "516",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "092858",
     "vehicleCd": "320",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.474778,
-    "lon": 135.476,
-    "route": "光明池駅→山田→堺東駅前",
-    "stop": "光明池駅",
-    "passTime": "13:52",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
     "vehicleNum": "092859",
     "vehicleCd": "32",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.438,
-    "lon": 135.595778,
-    "route": "小吹台→河内長野駅前",
-    "stop": "観心寺",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "092860",
+    "vehicleCd": "379",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092862",
+    "vehicleCd": "602",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092871",
+    "vehicleCd": "33",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "092873",
     "vehicleCd": "234",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.4575,
-    "lon": 135.474083,
-    "route": "和泉中央駅→はつが野→和泉青葉台→和泉中央駅（左回り）",
-    "stop": "和田南",
-    "passTime": "13:52",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
-  },
-  {
-    "vehicleNum": "092914",
-    "vehicleCd": "75",
-    "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.486083,
-    "lon": 135.425083,
-    "route": "泉大津駅前→和泉府中駅前→和泉中央駅",
-    "stop": "和泉府中駅前",
-    "passTime": "13:49",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
     "vehicleNum": "092901",
     "vehicleCd": "356",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.5325,
-    "lon": 135.459583,
-    "route": "光明池駅→山田→堺東駅前",
-    "stop": "西堺警察署前",
-    "passTime": "13:48",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "092914",
+    "vehicleCd": "75",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "092916",
     "vehicleCd": "235",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.486694,
-    "lon": 135.424278,
-    "route": "光明池駅→光明池車庫→和泉中央駅→泉大津駅前",
-    "stop": "和泉府中駅前",
-    "passTime": "13:49",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
     "vehicleNum": "092917",
     "vehicleCd": "40",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.420694,
-    "lon": 135.544194,
-    "route": "滝畑ダム→奥河内くろまろの郷→河内長野駅前",
-    "stop": "日野",
-    "passTime": "13:52",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
-  },
-  {
-    "vehicleNum": "092936",
-    "vehicleCd": "322",
-    "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.432083,
-    "lon": 135.234389,
-    "route": "空港駅→給油地区",
-    "stop": "空港駅",
-    "passTime": "13:50",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
     "vehicleNum": "092918",
     "vehicleCd": "114",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.420472,
-    "lon": 135.456583,
-    "route": "和泉中央駅→テクノステージセンター前→グリーンポリス前→和泉中央駅",
-    "stop": "コスモ中央公園前",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
     "vehicleNum": "092919",
     "vehicleCd": "230",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.427694,
-    "lon": 135.530472,
-    "route": "長野→天野山→旭",
-    "stop": "天野山",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "092936",
+    "vehicleCd": "322",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092937",
+    "vehicleCd": "73",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092948",
+    "vehicleCd": "606",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092950",
+    "vehicleCd": "257",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092951",
+    "vehicleCd": "340",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092952",
+    "vehicleCd": "113",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "092975",
+    "vehicleCd": "115",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "092976",
     "vehicleCd": "138",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.457278,
-    "lon": 135.447889,
-    "route": "泉大津駅前→和泉府中駅前→和泉中央駅",
-    "stop": "唐国",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
-  },
-  {
-    "vehicleNum": "093011",
-    "vehicleCd": "27",
-    "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.438583,
-    "lon": 135.244194,
-    "route": "エアロプラザ→第２ターミナル(国内線・国際線)→エアロプラザ",
-    "stop": "第2ターミナル国際線",
-    "passTime": "13:47",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
     "vehicleNum": "092977",
     "vehicleCd": "608",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.471278,
-    "lon": 135.433889,
-    "route": "和泉中央駅→寺田→泉大津駅前",
-    "stop": "寺田住宅",
-    "passTime": "13:52",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
     "vehicleNum": "092978",
     "vehicleCd": "325",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.512194,
-    "lon": 135.475083,
-    "route": "国分峠東→栂・美木多駅→堺東駅前",
-    "stop": "菱木下",
-    "passTime": "13:52",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "093013",
+    "vehicleCd": "393",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "093032",
     "vehicleCd": "231",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.438194,
-    "lon": 135.2315,
-    "route": "エアロプラザ→第２ターミナル(国内線・国際線)→エアロプラザ",
-    "stop": "第2ターミナル国内線",
-    "passTime": "13:52",
-    "vehicleType": "南海バス",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
   },
   {
-    "vehicleNum": "093071",
-    "vehicleCd": "274",
+    "vehicleNum": "093035",
+    "vehicleCd": "609",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.471389,
-    "lon": 135.476889,
-    "route": "光明池駅→城山台５丁→光明池車庫→光明池駅",
-    "stop": "変電所前",
-    "passTime": "13:49",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "093046",
+    "vehicleCd": "246",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "093054",
+    "vehicleCd": "396",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "093072",
     "vehicleCd": "369",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.496694,
-    "lon": 135.478389,
-    "route": "堺東駅前→鳳駅前→栂・美木多駅",
-    "stop": "一の坂",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "093073",
+    "vehicleCd": "370",
+    "vehicleCorpCd": "1",
+    "running": true
   },
   {
     "vehicleNum": "093074",
     "vehicleCd": "247",
     "vehicleCorpCd": "1",
-    "running": true,
-    "lat": 34.4605,
-    "lon": 135.473583,
-    "route": "泉大津駅前→和泉府中駅前→和泉中央駅→光明池駅",
-    "stop": "和泉和田",
-    "passTime": "13:51",
-    "vehicleType": "南海バス(車椅子・ベビーカー・ノンステップ)",
-    "updateTime": "2026/09/07 13:52"
+    "running": true
+  },
+  {
+    "vehicleNum": "093114",
+    "vehicleCd": "262",
+    "vehicleCorpCd": "1",
+    "running": true
+  },
+  {
+    "vehicleNum": "070036",
+    "vehicleCd": "530",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "070083",
+    "vehicleCd": "194",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "070084",
+    "vehicleCd": "35",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "070100",
+    "vehicleCd": "548",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "070101",
+    "vehicleCd": "400",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "070102",
+    "vehicleCd": "401",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "070105",
+    "vehicleCd": "403",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "070107",
+    "vehicleCd": "405",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "070108",
+    "vehicleCd": "406",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "070119",
+    "vehicleCd": "39",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "070850",
+    "vehicleCd": "429",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "071117",
+    "vehicleCd": "251",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "071118",
+    "vehicleCd": "252",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "071119",
+    "vehicleCd": "195",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "071151",
+    "vehicleCd": "60",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "071603",
+    "vehicleCd": "410",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "071604",
+    "vehicleCd": "217",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "071607",
+    "vehicleCd": "414",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "072501",
+    "vehicleCd": "598",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080019",
+    "vehicleCd": "373",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080028",
+    "vehicleCd": "376",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080030",
+    "vehicleCd": "378",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080032",
+    "vehicleCd": "380",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080037",
+    "vehicleCd": "119",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080043",
+    "vehicleCd": "381",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080045",
+    "vehicleCd": "121",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080055",
+    "vehicleCd": "383",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080056",
+    "vehicleCd": "397",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080057",
+    "vehicleCd": "384",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080060",
+    "vehicleCd": "162",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080061",
+    "vehicleCd": "385",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080062",
+    "vehicleCd": "123",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080075",
+    "vehicleCd": "521",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080077",
+    "vehicleCd": "522",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080081",
+    "vehicleCd": "125",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080088",
+    "vehicleCd": "442",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080093",
+    "vehicleCd": "131",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080115",
+    "vehicleCd": "466",
+    "vehicleCorpCd": "1",
+    "running": false
+  },
+  {
+    "vehicleNum": "080118",
+    "vehicleCd": "38",
+    "vehicleCorpCd": "1",
+    "running": false
   }
 ]
